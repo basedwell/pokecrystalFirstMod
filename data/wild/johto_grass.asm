@@ -1325,7 +1325,7 @@ JohtoGrassWildMons:
 	db 5, MAREEP
 	db 7, BELLSPROUT
 	db 6, HOPPIP
-	db 5, CHARMANDER
+	db 7, SLUGMA
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; day
@@ -1333,7 +1333,7 @@ JohtoGrassWildMons:
 	db 5, MAREEP
 	db 7, BELLSPROUT
 	db 6, HOPPIP
-	db 5, CHARMANDER
+	db 7, SLUGMA
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; nite
@@ -1489,19 +1489,19 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, RATTATA
-	db 16, RATICATE
 	db 16, MAGNEMITE
+	db 16, RATICATE
 	db 16, PIDGEOTTO
-	db 13, TAUROS
+	db 16, TAUROS
+	db 13, MILTANK
 	db 13, MILTANK
 	db 13, MILTANK
 	; day
-	db 16, RATTATA
-	db 16, RATICATE
 	db 16, MAGNEMITE
+	db 16, RATICATE
 	db 16, PIDGEOTTO
-	db 13, TAUROS
+	db 16, TAUROS
+	db 13, MILTANK
 	db 13, MILTANK
 	db 13, MILTANK
 	; nite
@@ -1510,26 +1510,26 @@ JohtoGrassWildMons:
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
 	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 16, MURKROW
+	db 16, MURKROW
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, RATTATA
-	db 16, RATICATE
 	db 16, MAGNEMITE
+	db 16, RATICATE
 	db 16, PIDGEOTTO
-	db 15, MILTANK
+	db 16, MILTANK
+	db 15, TAUROS
 	db 15, TAUROS
 	db 15, TAUROS
 	; day
-	db 16, RATTATA
-	db 16, RATICATE
 	db 16, MAGNEMITE
+	db 16, RATICATE
 	db 16, PIDGEOTTO
-	db 15, MILTANK
+	db 16, MILTANK
+	db 15, TAUROS
 	db 15, TAUROS
 	db 15, TAUROS
 	; nite
@@ -1538,8 +1538,8 @@ JohtoGrassWildMons:
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
 	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 18, MURKROW
+	db 18, MURKROW
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42
@@ -1573,26 +1573,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
-	db 16, PIDGEOTTO
-	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
-	db 17, FURRET
-	db 17, FURRET
+	db 16, PIDGEOTTO
+	db 16, GIRAGARIG 
+	db 15, FARFETCH_D
+	db 17, MANKEY
+	db 17, YANMA
+	db 17, YANMA
 	; day
-	db 15, SENTRET
-	db 16, PIDGEOTTO
-	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
-	db 17, FURRET
-	db 17, FURRET
+	db 16, PIDGEOTTO
+	db 16, GIRAFARIG
+	db 15, FARFETCH_D
+	db 17, MANKEY
+	db 17, YANMA
+	db 17, YANMA
 	; nite
 	db 15, VENONAT
 	db 16, NOCTOWL
 	db 16, RATICATE
-	db 17, VENONAT
+	db 17, SKARMORY
 	db 17, RATICATE
 	db 17, VENOMOTH
 	db 17, VENOMOTH
@@ -1603,19 +1603,19 @@ JohtoGrassWildMons:
 	; morn
 	db 23, TANGELA
 	db 22, LICKITUNG
-	db 22, BELLSPROUT
-	db 24, WEEPINBELL
+	db 22, WEEPINBELL
 	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 24, CHARMANDER
+	db 26, GLIGAR
+	db 26, GLIGAR
 	; day
 	db 23, TANGELA
 	db 22, LICKITUNG
-	db 22, BELLSPROUT
-	db 24, WEEPINBELL
+	db 22, WEEPINBELL
 	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 24, CHARMANDER
+	db 26, GLIGAR
+	db 26, GLIGAR
 	; nite
 	db 23, TANGELA
 	db 22, POLIWAG
