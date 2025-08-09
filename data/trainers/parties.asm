@@ -3272,46 +3272,50 @@ PokefanMGroup:
 
 	; POKEFANM (3)
 	db "ROBERT@", TRAINERTYPE_ITEM
-	db 33, QUAGSIRE,   BERRY
+	db 49, QUAGSIRE,   BERRY
+	db 46, OCTILLERY,  BERRY
 	db -1 ; end
 
 	; POKEFANM (4)
 	db "JOSHUA@", TRAINERTYPE_ITEM
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
+	db 65, PICHU,      BERRY
+	db 65, PICHU,      BERRY
+	db 65, PICHU,      BERRY
+	db 65, PICHU,      BERRY
+	db 65, PICHU,      BERRY
+	db 49, MEWTWO,     BERRY
 	db -1 ; end
 
 	; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
-	db 29, BULBASAUR,  BERRY
-	db 29, CHARMANDER, BERRY
-	db 29, SQUIRTLE,   BERRY
+	db 59, VENUSAUR,   BERRY
+	db 59, CHARIZARD,  BERRY
+	db 60, BLASTOISE,  BERRY
 	db -1 ; end
 
 	; POKEFANM (6)
 	db "TREVOR@", TRAINERTYPE_ITEM
-	db 33, PSYDUCK,    BERRY
+	db 60, PSYDUCK,    BERRY
 	db -1 ; end
 
 	; POKEFANM (7)
 	db "BRANDON@", TRAINERTYPE_ITEM
 	db 13, SNUBBULL,   BERRY
+	db 14, LARVITAR,   BERRY
 	db -1 ; end
 
 	; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
+	db 38, PERSIAN,    BERRY
+	db 42, LAPRAS,     BERRY
+	db 41, CORSOLA,    BERRY
 	db -1 ; end
 
 	; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_ITEM
-	db 32, DELIBIRD,   BERRY
+	db 49, DELIBIRD,   BERRY
+	db 42, WOBBUFFET,  BERRY
+	db 46, UNOWN,      BERRY
 	db -1 ; end
 
 	; POKEFANM (10)
@@ -3326,19 +3330,20 @@ PokefanMGroup:
 
 	; POKEFANM (12)
 	db "ALEX@", TRAINERTYPE_ITEM
-	db 29, NIDOKING,   BERRY
-	db 29, SLOWKING,   BERRY
-	db 29, SEAKING,    BERRY
+	db 59, NIDOKING,   BERRY
+	db 59, SLOWKING,   BERRY
+	db 57, STEELIX,    BERRY
+	db 61, POLITOED,   BERRY
 	db -1 ; end
 
 	; POKEFANM (13)
 	db "REX@", TRAINERTYPE_ITEM
-	db 35, PHANPY,     BERRY
+	db 50, DONPHAN,    BERRY
 	db -1 ; end
 
 	; POKEFANM (14)
 	db "ALLAN@", TRAINERTYPE_ITEM
-	db 35, TEDDIURSA,  BERRY
+	db 49, URSARING,   BERRY
 	db -1 ; end
 
 KimonoGirlGroup:
@@ -3443,7 +3448,7 @@ PokefanFGroup:
 
 	; POKEFANF (2)
 	db "RUTH@", TRAINERTYPE_ITEM
-	db 17, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
 	db -1 ; end
 
 	; POKEFANF (3)
@@ -3458,16 +3463,16 @@ PokefanFGroup:
 
 	; POKEFANF (5)
 	db "GEORGIA@", TRAINERTYPE_ITEM
-	db 23, SENTRET,    BERRY
-	db 23, SENTRET,    BERRY
-	db 23, SENTRET,    BERRY
-	db 28, FURRET,     BERRY
-	db 23, SENTRET,    BERRY
+	db 43, RATICATE,   BERRY
+	db 43, PERSIAN,    BERRY
+	db 43, NIDORINA,   BERRY
+	db 38, FURRET,     BERRY
+	db 43, PIDGEOT,    BERRY
 	db -1 ; end
 
 	; POKEFANF (6)
 	db "JAIME@", TRAINERTYPE_ITEM
-	db 16, MEOWTH,     BERRY
+	db 24, PERSIAN,    BERRY
 	db -1 ; end
 
 RedGroup:
@@ -3507,33 +3512,35 @@ OfficerGroup:
 GruntFGroup:
 	; GRUNTF (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db 11, ZUBAT
+	db 13, EKANS
 	db -1 ; end
 
 	; GRUNTF (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, ARBOK
+	db 40, ARBOK
+	db 41, HYPNO
 	db -1 ; end
 
 	; GRUNTF (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, GLOOM
-	db 25, GLOOM
+	db 38, KANGASKHAN
+	db 36, GOLBAT
+	db 39, GLOOM
 	db -1 ; end
 
 	; GRUNTF (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, EKANS
-	db 23, ODDISH
-	db 21, EKANS
-	db 24, GLOOM
+	db 36, ARBOK
+	db 35, WEEZING
+	db 41, MUK
+	db 38, GLOOM
 	db -1 ; end
 
 	; GRUNTF (5)
 	db "GRUNT@", TRAINERTYPE_MOVES
-	db 18, EKANS,      WRAP, LEER, POISON_STING, BITE
-	db 18, GLOOM,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
+	db 26, HOUNDOUR,   EMBER, SMOG, ROAR, BITE
+	db 28, VILEPLUME,  GIGA_DRAIN, SLUDGE_BOMB, TOXIC, SLEEP_POWDER
 	db -1 ; end
 
 MysticalmanGroup:
