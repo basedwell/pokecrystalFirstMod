@@ -1294,70 +1294,72 @@ GruntMGroup:
 
 	; GRUNTM (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, ZUBAT
-	db  9, ZUBAT
+	db  8, RATTATA
+	db 10, ZUBAT
+	db 10, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
-	db 24, RATICATE
+	db 37, RATICATE
+	db 36, KANGASKHAN
 	db -1 ; end
 
 	; GRUNTM (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, GRIMER
-	db 23, GRIMER
-	db 25, MUK
+	db 36, MUK
+	db 37, MUK
+	db 35, HYPNO
 	db -1 ; end
 
 	; GRUNTM (5)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, RATTATA
-	db 21, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
+	db 31, RATTATA
+	db 33, RATTATA
+	db 35, RATICATE
+	db 35, ARBOK
+	db 36, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (6)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, ZUBAT
-	db 26, ZUBAT
+	db 36, GOLBAT
+	db 36, VENOMOTH
+	db 37, PUPITAR
 	db -1 ; end
 
 	; GRUNTM (7)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, KOFFING
-	db 23, GRIMER
-	db 23, ZUBAT
-	db 23, RATTATA
+	db 33, WEEZING
+	db 38, MUK
+	db 33, MURKROW
+	db 33, WOBBUFFET
 	db -1 ; end
 
 	; GRUNTM (8)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, WEEZING
+	db 36, DUGTRIO
+	db 34, KANGASKHAN
 	db -1 ; end
 
 	; GRUNTM (9)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
-	db 26, KOFFING
+	db 34, RATICATE
+	db 40, WEEZING
 	db -1 ; end
 
 	; GRUNTM (10)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 22, ZUBAT
-	db 24, GOLBAT
-	db 22, GRIMER
+	db 39, GOLBAT
+	db 42, CROBAT
+	db 37, LICKITUNG
 	db -1 ; end
 
 	; GRUNTM (11)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, MUK
-	db 23, KOFFING
-	db 25, RATTATA
+	db 38, MUK
+	db 35, QWILFISH
+	db 42, DUGTRIO
 	db -1 ; end
 
 	; GRUNTM (12)
@@ -1367,96 +1369,100 @@ GruntMGroup:
 
 	; GRUNTM (13)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 27, RATTATA
+	db 41, HYPNO
 	db -1 ; end
 
 	; GRUNTM (14)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, RATICATE
-	db 24, GOLBAT
+	db 34, VENOMOTH
+	db 40, MURKROW
 	db -1 ; end
 
 	; GRUNTM (15)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, GRIMER
-	db 23, WEEZING
+	db 36, WEEZING
+	db 33, HYPNO
 	db -1 ; end
 
 	; GRUNTM (16)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
-	db 16, RATTATA
+	db 26, RATTATA
+	db 26, RATICATE
+	db 26, DROWZEE
+	db 26, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (17)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 18, GOLBAT
+	db 30, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (18)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 17, RATTATA
-	db 17, ZUBAT
-	db 17, RATTATA
+	db 25, RATTATA
+	db 23, GOLBAT
+	db 27, RATICATE
 	db -1 ; end
 
 	; GRUNTM (19)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 18, VENONAT
-	db 18, VENONAT
+	db 25, DIGLETT
+	db 27, BEEDRILL
+	db 26, GRIMER
 	db -1 ; end
 
 	; GRUNTM (20)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 17, DROWZEE
-	db 19, ZUBAT
+	db 27, DROWZEE
+	db 29, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (21)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 16, ZUBAT
-	db 17, GRIMER
-	db 18, RATTATA
+	db 26, GOLBAT
+	db 27, MUK
+	db 24, RATICATE
 	db -1 ; end
 
 	; GRUNTM (22)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 36, GOLBAT
+	db 44, CROBAT
+	db 37, PUPITAR
+	db 41, VENOMOTH
 	db -1 ; end
 
 	; GRUNTM (23)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 30, KOFFING
+	db 36, WEEZING
 	db -1 ; end
 
 	; GRUNTM (24)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, KOFFING
-	db 25, KOFFING
+	db 38, WEEZING
+	db 38, HYPNO
 	db -1 ; end
 
 	; GRUNTM (25)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, KOFFING
-	db 24, MUK
+	db 38, MUK
+	db 41, GLOOM
 	db -1 ; end
 
 	; GRUNTM (26)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
-	db 15, RATTATA
+	db 25, RATTATA
+	db 25, RATICATE
 	db -1 ; end
 
 	; GRUNTM (27)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 22, ZUBAT
+	db 30, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (28)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 19, RATICATE
+	db 26, LARVITAR
+	db 25, DIGLETT
 	db -1 ; end
 
 	; GRUNTM (29)
@@ -1467,14 +1473,14 @@ GruntMGroup:
 
 	; GRUNTM (30)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, GOLBAT
-	db 25, GOLBAT
-	db 30, ARBOK
+	db 38, KANGASKHAN
+	db 39, GYARADOS
+	db 38, ARBOK
 	db -1 ; end
 
 	; GRUNTM (31)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 30, GOLBAT
+	db 40, CROBAT
 	db -1 ; end
 
 GentlemanGroup:
