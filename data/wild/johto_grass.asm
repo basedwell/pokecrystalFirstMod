@@ -705,141 +705,141 @@ JohtoGrassWildMons:
 	def_grass_wildmons ICE_PATH_1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 30, SWINUB
+	db 32, GOLBAT
+	db 30, SEEL
+	db 29, SMOOCHUM
+	db 29, SWINUB
+	db 28, SEEL
+	db 28, SWINUB
 	; day
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 30, SWINUB
+	db 32, GOLBAT
+	db 30, SEEL
+	db 29, SMOOCHUM
+	db 29, SWINUB
+	db 28, SEEL
+	db 28, SWINUB
 	; nite
-	db 21, DELIBIRD
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, DELIBIRD
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 30, DELIBIRD
+	db 31, GOLBAT
+	db 31, SWINUB
+	db 30, DELIBIRD
+	db 27, SEEL
+	db 30, SNEASEL
+	db 30, SNEASEL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	db 30, SWINUB
+	db 28, SEEL
+	db 29, SMOOCHUM
+	db 30, SWINUB
+	db 28, SMOOCHUM
+	db 30, DELIBIRD
+	db 31, SNEASEL
 	; day
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	db 30, SWINUB
+	db 28, SEEL
+	db 29, SMOOCHUM
+	db 30, SWINUB
+	db 28, SMOOCHUM
+	db 30, DELIBIRD
+	db 31, SNEASEL
 	; nite
-	db 22, DELIBIRD
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, DELIBIRD
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, SNEASEL
+	db 30, DELIBIRD
+	db 31, SWINUB
+	db 30, GOLBAT
+	db 32, DELIBIRD
+	db 29, SMOOCHUM
+	db 29, SNEASEL
+	db 30, SNEASEL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B2F_MAHOGANY_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 29, SWINUB
+	db 29, SMOOCHUM
+	db 30, SWINUB
+	db 32, DELIBIRD
+	db 30, SNEASEL
+	db 29, SNEASEL
+	db 30, DELIBIRD
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 29, SWINUB
+	db 29, SMOOCHUM
+	db 30, SWINUB
+	db 32, DELIBIRD
+	db 30, SNEASEL
+	db 29, SNEASEL
+	db 30, DELIBIRD
 	; nite
-	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, DELIBIRD
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	db 31, DELIBIRD
+	db 30, SWINUB
+	db 29, DELIBIRD
+	db 29, SMOOCHUM
+	db 31, SNEASEL
+	db 32, SNEASEL
+	db 34, SNEASEL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B2F_BLACKTHORN_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 29, SWINUB
+	db 29, SMOOCHUM
+	db 30, SWINUB
+	db 32, DELIBIRD
+	db 30, SNEASEL
+	db 29, SNEASEL
+	db 30, DELIBIRD
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 29, SWINUB
+	db 29, SMOOCHUM
+	db 30, SWINUB
+	db 32, DELIBIRD
+	db 30, SNEASEL
+	db 29, SNEASEL
+	db 30, DELIBIRD
 	; nite
-	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, DELIBIRD
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	db 31, DELIBIRD
+	db 30, SWINUB
+	db 29, DELIBIRD
+	db 29, SMOOCHUM
+	db 31, SNEASEL
+	db 32, SNEASEL
+	db 34, SNEASEL
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	db 30, SWINUB
+	db 29, SMOOCHUM
+	db 28, SWINUB
+	db 29, DELIBIRD
+	db 32, SNEASEL
+	db 30, SNEASEL
+	db 29, SNEASEL
 	; day
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	db 30, SWINUB
+	db 29, SMOOCHUM
+	db 28, SWINUB
+	db 29, DELIBIRD
+	db 32, SNEASEL
+	db 30, SNEASEL
+	db 29, SNEASEL
 	; nite
-	db 24, DELIBIRD
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, DELIBIRD
-	db 22, SNEASEL
-	db 24, SNEASEL
-	db 26, SNEASEL
+	db 31, DELIBIRD
+	db 27, SWINUB
+	db 30, SNEASEL
+	db 30, DELIBIRD
+	db 30, GOLBAT
+	db 29, SMOOCHUM
+	db 29, SMOOCHUM
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_NW
