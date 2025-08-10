@@ -1902,11 +1902,12 @@ KabutoEvosAttacks:
 	db 1, HARDEN
 	db 7, WATER_GUN
 	db 11, ABSORB
-	db 15, ANCIENTPOWER
+	db 15, ROCK_THROW
 	db 19, LEER
 	db 28, SAND_ATTACK
 	db 37, ENDURE
 	db 46, MEGA_DRAIN
+	db 54, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
 KabutopsEvosAttacks:
@@ -1922,6 +1923,7 @@ KabutopsEvosAttacks:
 	db 37, ENDURE
 	db 40, SLASH
 	db 51, MEGA_DRAIN
+	db 60, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:
