@@ -596,7 +596,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, RATICATE
 	db 19, MACHOP
-	db 18, OMASTAR
+	db 18, OMANYTE
 	db 18, ZUBAT
 	db 18, GOLBAT
 	db 18, GOLBAT
@@ -604,7 +604,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, RATICATE
 	db 18, MACHOP
-	db 19, OMASTAR
+	db 19, OMANYTE
 	db 20, ZUBAT
 	db 20, GOLBAT
 	db 20, GOLBAT
@@ -612,7 +612,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, GOLBAT
 	db 20, MARILL
-	db 20, OMASTAR
+	db 20, OMANYTE
 	db 17, CUBONE
 	db 20, GOLBAT
 	db 20, CUBONE
@@ -624,7 +624,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, RATICATE
 	db 19, MACHOP
-	db 18, OMASTAR
+	db 18, OMANYTE
 	db 18, ZUBAT
 	db 18, GOLBAT
 	db 18, GOLBAT
@@ -632,7 +632,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, RATICATE
 	db 18, MACHOP
-	db 19, OMASTAR
+	db 19, OMANYTE
 	db 20, ZUBAT
 	db 20, GOLBAT
 	db 20, GOLBAT
@@ -640,7 +640,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, GOLBAT
 	db 20, MARILL
-	db 20, OMASTAR
+	db 20, OMANYTE
 	db 17, CUBONE
 	db 20, GOLBAT
 	db 20, CUBONE
@@ -680,7 +680,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, RATICATE
 	db 19, MACHOP
-	db 18, OMASTAR
+	db 18, OMANYTE
 	db 18, ZUBAT
 	db 18, GOLBAT
 	db 18, GOLBAT
@@ -688,7 +688,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, RATICATE
 	db 18, MACHOP
-	db 19, OMASTAR
+	db 19, OMANYTE
 	db 20, ZUBAT
 	db 20, GOLBAT
 	db 20, GOLBAT
@@ -696,7 +696,7 @@ JohtoGrassWildMons:
 	db 17, GEODUDE
 	db 19, GOLBAT
 	db 20, MARILL
-	db 20, OMASTAR
+	db 20, OMANYTE
 	db 17, CUBONE
 	db 20, GOLBAT
 	db 20, CUBONE
