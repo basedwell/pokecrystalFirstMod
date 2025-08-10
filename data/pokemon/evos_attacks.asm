@@ -483,6 +483,14 @@ ClefableEvosAttacks:
 	db 1, DOUBLESLAP
 	db 1, METRONOME
 	db 1, MOONLIGHT
+	db 4, ENCORE
+	db 8, SING
+	db 13, DOUBLESLAP
+	db 19, MINIMIZE
+	db 26, DEFENSE_CURL
+	db 34, METRONOME
+	db 43, MOONLIGHT
+	db 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -504,6 +512,11 @@ NinetalesEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, CONFUSE_RAY
 	db 1, SAFEGUARD
+	db 7, QUICK_ATTACK
+	db 13, ROAR
+	db 19, CONFUSE_RAY
+	db 25, SAFEGUARD
+	db 31, FLAMETHROWER
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -527,6 +540,13 @@ WigglytuffEvosAttacks:
 	db 1, DISABLE
 	db 1, DEFENSE_CURL
 	db 1, DOUBLESLAP
+	db 9, POUND
+	db 14, DISABLE
+	db 19, ROLLOUT
+	db 24, DOUBLESLAP
+	db 29, REST
+	db 34, BODY_SLAM
+	db 39, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
@@ -590,6 +610,12 @@ VileplumeEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 14, POISONPOWDER
+	db 16, STUN_SPORE
+	db 18, SLEEP_POWDER
+	db 24, ACID
+	db 35, MOONLIGHT
+	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
