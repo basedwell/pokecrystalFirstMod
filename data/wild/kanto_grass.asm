@@ -509,57 +509,57 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, NIDORINO
-	db 26, NIDORINA
-	db 28, PIDGEOTTO
-	db 28, HOPPIP
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
-	db 28, CHANSEY
+	db 56, NIDORINO
+	db 56, NIDORINA
+	db 58, SKIPLOOM
+	db 48, CHANSEY
+	db 50, CHANSEY
+	db 20, MEW
+	db 48, CHANSEY
 	; day
-	db 26, NIDORINO
-	db 26, NIDORINA
-	db 28, PIDGEOTTO
-	db 28, HOPPIP
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
-	db 28, CHANSEY
+	db 56, NIDORINO
+	db 56, NIDORINA
+	db 58, SKIPLOOM
+	db 48, CHANSEY
+	db 50, CHANSEY
+	db 20, MEW
+	db 48, CHANSEY
 	; nite
-	db 26, VENONAT
-	db 26, QUAGSIRE
-	db 28, NOCTOWL
-	db 28, VENOMOTH
-	db 28, QUAGSIRE
-	db 28, QUAGSIRE
-	db 28, CHANSEY
+	db 56, VENOMOTH
+	db 58, QUAGSIRE
+	db 58, CHANSEY
+	db 58, NOCTOWL
+	db 58, PRIMEAPE
+	db 58, MEW
+	db 58, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
-	db 23, NIDORINA
-	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
-	db 25, CHANSEY
+	db 56, NIDORINO
+	db 56, NIDORINA
+	db 58, SKIPLOOM
+	db 48, CHANSEY
+	db 50, CHANSEY
+	db 20, MEW
+	db 48, CHANSEY
 	; day
-	db 23, NIDORINO
-	db 23, NIDORINA
-	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
-	db 25, CHANSEY
+	db 56, NIDORINO
+	db 56, NIDORINA
+	db 58, SKIPLOOM
+	db 48, CHANSEY
+	db 50, CHANSEY
+	db 20, MEW
+	db 48, CHANSEY
 	; nite
-	db 23, VENONAT
-	db 23, QUAGSIRE
-	db 25, NOCTOWL
-	db 25, VENOMOTH
-	db 25, QUAGSIRE
-	db 25, QUAGSIRE
-	db 25, CHANSEY
+	db 56, VENOMOTH
+	db 58, QUAGSIRE
+	db 58, CHANSEY
+	db 58, NOCTOWL
+	db 58, PRIMEAPE
+	db 58, MEW
+	db 58, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_16
