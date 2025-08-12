@@ -1293,6 +1293,7 @@ PokemaniacGroup:
 	db "BRENT@", TRAINERTYPE_MOVES
 	db 48, STANTLER,   LIGHT_SCREEN, REFLECT, HYPNOSIS, NIGHTMARE
 	db 48, CHANSEY,    ROLLOUT, ATTRACT, SEISMIC_TOSS, SOFTBOILED
+	db 49, LICKITUNG,  BELLY_DRUM, EARTHQUAKE, REST, HEADBUTT
 	db -1 ; end
 
 	; POKEMANIAC (15)
@@ -1501,19 +1502,21 @@ GruntMGroup:
 GentlemanGroup:
 	; GENTLEMAN (1)
 	db "PRESTON@", TRAINERTYPE_NORMAL
-	db 18, GROWLITHE
-	db 18, GROWLITHE
+	db 25, GROWLITHE
+	db 26, MAGMAR
 	db -1 ; end
 
 	; GENTLEMAN (2)
 	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 33, PERSIAN
+	db 47, PERSIAN
+	db 46, GRANBULL
+	db 45, ELECTABUZZ
 	db -1 ; end
 
 	; GENTLEMAN (3)
 	db "GREGORY@", TRAINERTYPE_NORMAL
-	db 37, PIKACHU
-	db 33, FLAAFFY
+	db 51, PIKACHU
+	db 49, AMPHAROS
 	db -1 ; end
 
 	; GENTLEMAN (4)
@@ -1523,35 +1526,37 @@ GentlemanGroup:
 
 	; GENTLEMAN (5)
 	db "ALFRED@", TRAINERTYPE_NORMAL
-	db 20, NOCTOWL
+	db 26, NOCTOWL
 	db -1 ; end
 
 SkierGroup:
 	; SKIER (1)
 	db "ROXANNE@", TRAINERTYPE_NORMAL
-	db 28, JYNX
+	db 34, JYNX
 	db -1 ; end
 
 	; SKIER (2)
 	db "CLARISSA@", TRAINERTYPE_NORMAL
-	db 28, DEWGONG
+	db 35, SEEL
+	db 35, DEWGONG
 	db -1 ; end
 
 TeacherGroup:
 	; TEACHER (1)
 	db "COLETTE@", TRAINERTYPE_NORMAL
-	db 36, CLEFAIRY
+	db 58, CLEFABLE
+	db 57, GIRAGARIG
 	db -1 ; end
 
 	; TEACHER (2)
 	db "HILLARY@", TRAINERTYPE_NORMAL
-	db 32, AIPOM
-	db 36, CUBONE
+	db 56, AIPOM
+	db 58, FORRETRESS
 	db -1 ; end
 
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
-	db 35, JIGGLYPUFF
+	db 47, JIGGLYPUFF
 	db -1 ; end
 
 SabrinaGroup:
@@ -1565,47 +1570,50 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  4, CATERPIE
+	db  4, CATERPIE
 	db -1 ; end
 
 	; BUG_CATCHER (2)
 	db "ROB@", TRAINERTYPE_NORMAL
-	db 32, BEEDRILL
-	db 32, BUTTERFREE
+	db 62, BEEDRILL
+	db 62, BUTTERFREE
 	db -1 ; end
 
 	; BUG_CATCHER (3)
 	db "ED@", TRAINERTYPE_NORMAL
-	db 30, BEEDRILL
-	db 30, BEEDRILL
-	db 30, BEEDRILL
+	db 60, BEEDRILL
+	db 60, SCYTHER
+	db 60, SCIZOR
 	db -1 ; end
 
 	; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, CATERPIE
-	db  2, CATERPIE
-	db  3, WEEDLE
-	db  2, CATERPIE
+	db  3, CATERPIE
+	db  4, CATERPIE
+	db  4, WEEDLE
+	db  4, CATERPIE
 	db -1 ; end
 
 	; BUG_CATCHER (5)
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, WEEDLE
-	db  9, KAKUNA
+	db  9, WEEDLE
+	db 10, KAKUNA
 	db 12, BEEDRILL
+	db 12, BUTTERFREE
 	db -1 ; end
 
 	; BUG_CATCHER (6)
 	db "AL@", TRAINERTYPE_NORMAL
-	db 12, CATERPIE
-	db 12, WEEDLE
+	db 12, PINECO
+	db 12, SPINARAK
+	db 13, LEDYBA
 	db -1 ; end
 
 	; BUG_CATCHER (7)
 	db "JOSH@", TRAINERTYPE_NORMAL
 	db 13, PARAS
+	db 13, VENONAT
 	db -1 ; end
 
 	; BUG_CATCHER (8)
@@ -1615,8 +1623,8 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (9)
 	db "KEN@", TRAINERTYPE_NORMAL
-	db 30, ARIADOS
-	db 32, PINSIR
+	db 45, ARIADOS
+	db 36, PINSIR
 	db -1 ; end
 
 	; BUG_CATCHER (10)
@@ -1637,7 +1645,8 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (12)
 	db "DOUG@", TRAINERTYPE_NORMAL
-	db 34, ARIADOS
+	db 62, ARIADOS
+	db 58, HERACROSS
 	db -1 ; end
 
 	; BUG_CATCHER (13)
@@ -1678,8 +1687,9 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (19)
 	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, LEDYBA
-	db 10, PARAS
+	db 13, LEDIAN
+	db 13, PARAS
+	db 14, BEEDRILL
 	db -1 ; end
 
 FisherGroup:
