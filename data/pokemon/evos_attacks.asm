@@ -1612,12 +1612,13 @@ ChanseyEvosAttacks:
 	db 9, TAIL_WHIP
 	db 13, SOFTBOILED
 	db 17, DOUBLESLAP
-	db 23, MINIMIZE
-	db 29, SING
-	db 35, EGG_BOMB
-	db 41, DEFENSE_CURL
-	db 49, LIGHT_SCREEN
-	db 57, DOUBLE_EDGE
+	db 20, MINIMIZE
+	db 25, SING
+	db 30, EGG_BOMB
+	db 35, SEISMIC_TOSS
+	db 40, DEFENSE_CURL
+	db 50, LIGHT_SCREEN
+	db 55, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
@@ -1848,10 +1849,11 @@ GyaradosEvosAttacks:
 	db 20, BITE
 	db 25, DRAGON_RAGE
 	db 30, LEER
-	db 35, TWISTER
+	db 34, WING_ATTACK
 	db 40, HYDRO_PUMP
-	db 45, RAIN_DANCE
-	db 50, HYPER_BEAM
+	db 45, THRASH
+	db 50, RAIN_DANCE
+	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LaprasEvosAttacks:
@@ -2768,9 +2770,11 @@ MurkrowEvosAttacks:
 	db 1, PECK
 	db 11, PURSUIT
 	db 16, HAZE
+	db 21, WING_ATTACK
 	db 26, NIGHT_SHADE
 	db 31, FAINT_ATTACK
 	db 41, MEAN_LOOK
+	db 49, DRILL_PECK
 	db 0 ; no more level-up moves
 
 SlowkingEvosAttacks:
@@ -2794,6 +2798,7 @@ MisdreavusEvosAttacks:
 	db 12, CONFUSE_RAY
 	db 19, MEAN_LOOK
 	db 27, PSYBEAM
+	db 32, SHADOW_BALL
 	db 36, PAIN_SPLIT
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves
@@ -2873,8 +2878,10 @@ GligarEvosAttacks:
 	db 28, FAINT_ATTACK
 	db 31, SLASH
 	db 36, EARTHQUAKE
-	db 44, SCREECH
-	db 52, GUILLOTINE
+	db 42, WING_ATTACK
+	db 48, SCREECH
+	db 54, COUNTER
+	db 60, GUILLOTINE
 	db 0 ; no more level-up moves
 
 SteelixEvosAttacks:
@@ -2992,8 +2999,10 @@ TeddiursaEvosAttacks:
 	db 22, FAINT_ATTACK
 	db 29, REST
 	db 36, SLASH
-	db 43, SNORE
+	db 39, SNORE
+	db 42, SWORDS_DANCE
 	db 50, THRASH
+	db 54, KARATE_CHOP
 	db 0 ; no more level-up moves
 
 UrsaringEvosAttacks:
@@ -3007,8 +3016,10 @@ UrsaringEvosAttacks:
 	db 22, FAINT_ATTACK
 	db 29, REST
 	db 39, SLASH
-	db 49, SNORE
+	db 44, SNORE
+	db 48, SWORDS_DANCE
 	db 59, THRASH
+	db 65, KARATE_CHOP
 	db 0 ; no more level-up moves
 
 SlugmaEvosAttacks:
@@ -3180,8 +3191,11 @@ PhanpyEvosAttacks:
 	db 17, FLAIL
 	db 25, TAKE_DOWN
 	db 33, ROLLOUT
+	db 35, BODY_SLAM
 	db 41, ENDURE
 	db 49, DOUBLE_EDGE
+	db 54, ANCIENTPOWER
+	db 57, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 DonphanEvosAttacks:
@@ -3192,9 +3206,12 @@ DonphanEvosAttacks:
 	db 17, FLAIL
 	db 25, FURY_ATTACK
 	db 33, ROLLOUT
+	db 37, BODY_SLAM
 	db 38, RAPID_SPIN
 	db 45, EARTHQUAKE
 	db 50, DOUBLE_EDGE
+	db 60, ANCIENTPOWER
+	db 73, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
@@ -3330,8 +3347,9 @@ BlisseyEvosAttacks:
 	db 23, SING
 	db 28, EGG_BOMB
 	db 33, DEFENSE_CURL
-	db 40, LIGHT_SCREEN
-	db 47, DOUBLE_EDGE
+	db 36, SEISMIC_TOSS
+	db 43, LIGHT_SCREEN
+	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 RaikouEvosAttacks:
