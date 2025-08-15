@@ -750,6 +750,7 @@ PsyduckEvosAttacks:
 	db 16, CONFUSION
 	db 23, SCREECH
 	db 31, PSYCH_UP
+	dB 34, PSYBEAM
 	db 40, FURY_SWIPES
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -765,6 +766,7 @@ GolduckEvosAttacks:
 	db 16, CONFUSION
 	db 23, SCREECH
 	db 31, PSYCH_UP
+	db 38, PSYBEAM
 	db 44, FURY_SWIPES
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -964,9 +966,10 @@ BellsproutEvosAttacks:
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 23, ACID
+	db 26, SLAM
 	db 30, SWEET_SCENT
+	db 35, SWORDS_DANCE
 	db 37, RAZOR_LEAF
-	db 45, SLAM
 	db 0 ; no more level-up moves
 
 WeepinbellEvosAttacks:
@@ -981,10 +984,10 @@ WeepinbellEvosAttacks:
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 24, ACID
+	db 29, SLAM
 	db 33, SWEET_SCENT
-	db 42, RAZOR_LEAF
-	db 54, SLAM
-	db 60, SWORDS_DANCE
+	db 36, SWORDS_DANCE
+	db 43, RAZOR_LEAF
 	db 0 ; no more level-up moves
 
 VictreebelEvosAttacks:
@@ -999,10 +1002,10 @@ VictreebelEvosAttacks:
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
 	db 24, ACID
+	db 31, SLAM
 	db 33, SWEET_SCENT
-	db 42, RAZOR_LEAF
-	db 54, SLAM
-	db 60, SWORDS_DANCE
+	db 38, SWORDS_DANCE
+	db 45, RAZOR_LEAF
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
@@ -2248,7 +2251,10 @@ TotodileEvosAttacks:
 	db 27, SCARY_FACE
 	db 35, SLASH
 	db 43, SCREECH
-	db 52, HYDRO_PUMP
+	db 46, ROCK_SLIDE
+	db 50, CRUNCH
+	db 55, HYDRO_PUMP
+	db 60, THRASH
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2263,7 +2269,10 @@ CroconawEvosAttacks:
 	db 28, SCARY_FACE
 	db 37, SLASH
 	db 45, SCREECH
-	db 55, HYDRO_PUMP
+	db 52, ROCK_SLIDE
+	db 57, CRUNCH
+	db 62, HYDRO_PUMP
+	db 67, THRASH
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
@@ -2278,7 +2287,10 @@ FeraligatrEvosAttacks:
 	db 28, SCARY_FACE
 	db 38, SLASH
 	db 47, SCREECH
-	db 58, HYDRO_PUMP
+	db 54, ROCK_SLIDE
+	db 61, CRUNCH
+	db 67, HYDRO_PUMP
+	db 74, THRASH
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2563,6 +2575,13 @@ BellossomEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 7, SWEET_SCENT
+	db 14, POISONPOWDER
+	db 16, STUN_SPORE
+	db 18, SLEEP_POWDER
+	db 24, ACID
+	db 35, MORNING_SUN
+	db 44, PETAL_DANCE
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -2577,6 +2596,7 @@ MarillEvosAttacks:
 	db 21, BUBBLEBEAM
 	db 28, DOUBLE_EDGE
 	db 36, RAIN_DANCE
+	db 45, BELLY_DRUM
 	db 0 ; no more level-up moves
 
 AzumarillEvosAttacks:
@@ -2592,6 +2612,7 @@ AzumarillEvosAttacks:
 	db 25, BUBBLEBEAM
 	db 36, DOUBLE_EDGE
 	db 48, RAIN_DANCE
+	db 54, BELLY_DRUM
 	db 0 ; no more level-up moves
 
 SudowoodoEvosAttacks:
@@ -2611,8 +2632,15 @@ PolitoedEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
 	db 1, PERISH_SONG
+	db 6, HYPNOSIS
+	db 13, WATER_GUN
+	db 19, DOUBLESLAP
+	db 27, RAIN_DANCE
 	db 35, PERISH_SONG
+	db 40, BELLY_DRUM
+	db 45, BODY_SLAM
 	db 51, SWAGGER
+	db 56, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
