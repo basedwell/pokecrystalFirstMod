@@ -138,6 +138,9 @@ MartGoldenrod5F1:
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
+	db TM_LIGHT_SCREEN
+	db TM_REFLECT
+	db TM_SUBTITUTE
 	db -1 ; end
 
 MartGoldenrod5F2:
@@ -146,6 +149,9 @@ MartGoldenrod5F2:
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
 	db TM_HEADBUTT
+	db TM_LIGHT_SCREEN
+	db TM_REFLECT
+	db TM_SUBTITUTE
 	db -1 ; end
 
 MartGoldenrod5F3:
@@ -154,6 +160,9 @@ MartGoldenrod5F3:
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
 	db TM_ROCK_SMASH
+	db TM_LIGHT_SCREEN
+	db TM_REFLECT
+	db TM_SUBTITUTE
 	db -1 ; end
 
 MartGoldenrod5F4:
@@ -163,6 +172,9 @@ MartGoldenrod5F4:
 	db TM_ICE_PUNCH
 	db TM_HEADBUTT
 	db TM_ROCK_SMASH
+	db TM_LIGHT_SCREEN
+	db TM_REFLECT
+	db TM_SUBTITUTE
 	db -1 ; end
 
 MartOlivine:
@@ -319,6 +331,9 @@ MartCeladon3F:
 	db TM_PROTECT
 	db TM_RAIN_DANCE
 	db TM_SANDSTORM
+	db TM_FLAMETHROWER
+	db TM_ICE_BEAM
+	db TM_THUNDERBOLT
 	db -1 ; end
 
 MartCeladon4F:
