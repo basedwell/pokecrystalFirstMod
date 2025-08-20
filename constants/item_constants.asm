@@ -304,7 +304,7 @@ ENDM
 DEF MT01 EQU const_value
 	add_mt THUNDER_WAVE
 	add_mt COUNTER
-	add_mt EXPLOSION
+	add_mt BODY_SLAM
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS
