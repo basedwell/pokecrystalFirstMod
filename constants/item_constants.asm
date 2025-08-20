@@ -268,6 +268,7 @@ DEF TM01 EQU const_value
 	add_tm REFLECT
 	add_tm LIGHT_SCREEN
 	add_tm SUBSTITUTE
+	add_tm ROCK_SLIDE
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm
