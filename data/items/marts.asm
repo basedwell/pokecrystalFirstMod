@@ -134,7 +134,7 @@ MartGoldenrod4F:
 	db -1 ; end
 
 MartGoldenrod5F1:
-	db 3 ; # items
+	db 6 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
@@ -144,7 +144,7 @@ MartGoldenrod5F1:
 	db -1 ; end
 
 MartGoldenrod5F2:
-	db 4 ; # items
+	db 7 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
@@ -155,7 +155,7 @@ MartGoldenrod5F2:
 	db -1 ; end
 
 MartGoldenrod5F3:
-	db 4 ; # items
+	db 7 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
@@ -166,7 +166,7 @@ MartGoldenrod5F3:
 	db -1 ; end
 
 MartGoldenrod5F4:
-	db 5 ; # items
+	db 8 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
@@ -252,7 +252,7 @@ MartViridian:
 	db -1 ; end
 
 MartPewter:
-	db 7 ; # items
+	db 8 ; # items
 	db GREAT_BALL
 	db SUPER_POTION
 	db SUPER_REPEL
@@ -260,6 +260,7 @@ MartPewter:
 	db PARLYZ_HEAL
 	db AWAKENING
 	db BURN_HEAL
+	db TM_ROCK_SLIDE
 	db -1 ; end
 
 MartCerulean:
@@ -325,7 +326,7 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 5 ; # items
+	db 8 ; # items
 	db TM_HIDDEN_POWER
 	db TM_SUNNY_DAY
 	db TM_PROTECT
