@@ -252,6 +252,8 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw BrickBreakDescription
+	dw BulletPunchDescription
 	assert_table_length NUM_ATTACKS
 	dw MoveFCDescription
 	dw MoveFDDescription
@@ -1270,3 +1272,11 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+BrickBreakDescription:
+	db   "A strong chop that"
+	next "shatters screens.@"
+
+BulletPunchDescription:
+	db   "Fist of steel"
+	next "that hits first.@"
