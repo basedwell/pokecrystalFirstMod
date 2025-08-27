@@ -3008,10 +3008,11 @@ SneaselEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 9, QUICK_ATTACK
+	db 13, AGILITY
 	db 17, SCREECH
 	db 25, FAINT_ATTACK
 	db 33, FURY_SWIPES
-	db 41, AGILITY
+	db 41, SWORDS_DANCE
 	db 49, SLASH
 	db 57, BEAT_UP
 	db 65, METAL_CLAW
