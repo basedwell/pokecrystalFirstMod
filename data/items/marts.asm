@@ -82,12 +82,13 @@ MartAzalea:
 	db -1 ; end
 
 MartCianwood:
-	db 5 ; # items
+	db 6 ; # items
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
 	db FULL_HEAL
 	db REVIVE
+	db WATER_STONE
 	db -1 ; end
 
 MartGoldenrod2F1:
@@ -125,7 +126,8 @@ MartGoldenrod3F:
 	db -1 ; end
 
 MartGoldenrod4F:
-	db 5 ; # items
+	db 6 ; # items
+	db LEAF_STONE
 	db PROTEIN
 	db IRON
 	db CARBOS
@@ -134,51 +136,56 @@ MartGoldenrod4F:
 	db -1 ; end
 
 MartGoldenrod5F1:
-	db 6 ; # items
+	db 7 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
 	db TM_LIGHT_SCREEN
 	db TM_REFLECT
 	db TM_SUBTITUTE
+	db TM_RETURN
 	db -1 ; end
 
 MartGoldenrod5F2:
-	db 7 ; # items
-	db TM_THUNDERPUNCH
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
-	db TM_HEADBUTT
-	db TM_LIGHT_SCREEN
-	db TM_REFLECT
-	db TM_SUBTITUTE
-	db -1 ; end
-
-MartGoldenrod5F3:
-	db 7 ; # items
-	db TM_THUNDERPUNCH
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
-	db TM_ROCK_SMASH
-	db TM_LIGHT_SCREEN
-	db TM_REFLECT
-	db TM_SUBTITUTE
-	db -1 ; end
-
-MartGoldenrod5F4:
 	db 8 ; # items
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
 	db TM_HEADBUTT
+	db TM_LIGHT_SCREEN
+	db TM_REFLECT
+	db TM_SUBTITUTE
+	db TM_RETURN
+	db -1 ; end
+
+MartGoldenrod5F3:
+	db 8 ; # items
+	db TM_THUNDERPUNCH
+	db TM_FIRE_PUNCH
+	db TM_ICE_PUNCH
 	db TM_ROCK_SMASH
 	db TM_LIGHT_SCREEN
 	db TM_REFLECT
 	db TM_SUBTITUTE
+	db TM_RETURN
+	db -1 ; end
+
+MartGoldenrod5F4:
+	db 9 ; # items
+	db TM_THUNDERPUNCH
+	db TM_FIRE_PUNCH
+	db TM_ICE_PUNCH
+	db TM_HEADBUTT
+	db TM_ROCK_SMASH
+	db TM_LIGHT_SCREEN
+	db TM_REFLECT
+	db TM_SUBTITUTE
+	db TM_RETURN
 	db -1 ; end
 
 MartOlivine:
-	db 9 ; # items
+	db 10 ; # items
+	db THUNDER_STONE
 	db GREAT_BALL
 	db SUPER_POTION
 	db HYPER_POTION
@@ -191,7 +198,8 @@ MartOlivine:
 	db -1 ; end
 
 MartEcruteak:
-	db 10 ; # items
+	db 11 ; # items
+	db FIRE_STONE
 	db POKE_BALL
 	db GREAT_BALL
 	db POTION
