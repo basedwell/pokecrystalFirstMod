@@ -1512,28 +1512,31 @@ MarowakEvosAttacks:
 
 HitmonleeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DOUBLE_KICK
-	db 6, MEDITATE
-	db 11, ROLLING_KICK
-	db 16, JUMP_KICK
+	db 1, TACKLE
+	db 20, ROLLING_KICK
+	db 20, JUMP_KICK
+	db 20, DOUBLE_KICK
 	db 21, FOCUS_ENERGY
-	db 26, HI_JUMP_KICK
-	db 31, MIND_READER
-	db 36, FORESIGHT
-	db 41, ENDURE
+	db 28, HI_JUMP_KICK
+	db 30, MEDITATE
+	db 33, MIND_READER
+	db 37, FORESIGHT
+	db 42, ENDURE
 	db 46, MEGA_KICK
-	db 51, REVERSAL
+	db 52, REVERSAL
 	db 0 ; no more level-up moves
 
 HitmonchanEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, COMET_PUNCH
-	db 7, AGILITY
-	db 13, PURSUIT
+	db 1, TACKLE
+	db 20, AGILITY
+	db 20, PURSUIT
+	db 20, COMET_PUNCH
 	db 26, THUNDERPUNCH
 	db 26, ICE_PUNCH
 	db 26, FIRE_PUNCH
 	db 32, MACH_PUNCH
+	db 32, BULLET_PUNCH
 	db 38, MEGA_PUNCH
 	db 44, DETECT
 	db 50, COUNTER
@@ -2972,8 +2975,9 @@ ScizorEvosAttacks:
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
 	db 18, FALSE_SWIPE
+	db 21, BULLET_PUNCH
 	db 24, AGILITY
-	db 30, METAL_CLAW
+	db 33, METAL_CLAW
 	db 36, SLASH
 	db 42, SWORDS_DANCE
 	db 48, DOUBLE_TEAM
@@ -3299,6 +3303,7 @@ TyrogueEvosAttacks:
 
 HitmontopEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 21, ROLLING_KICK
 	db 23, FOCUS_ENERGY
 	db 24, PURSUIT
