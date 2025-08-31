@@ -868,11 +868,12 @@ PoliwrathEvosAttacks:
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 27, RAIN_DANCE
-	db 35, SUBMISSION
+	db 35, BRICK_BREAK
 	db 40, BODY_SLAM
 	db 42, BELLY_DRUM
-	db 51, HYDRO_PUMP
-	db 51, MIND_READER
+	db 48, SUBMISSION
+	db 53, HYDRO_PUMP
+	db 53, MIND_READER
 	db 0 ; no more level-up moves
 
 AbraEvosAttacks:
@@ -1822,9 +1823,11 @@ PinsirEvosAttacks:
 	db 7, FOCUS_ENERGY
 	db 13, BIND
 	db 19, SEISMIC_TOSS
-	db 25, HARDEN
-	db 31, GUILLOTINE
-	db 37, SUBMISSION
+	db 23, HORN_ATTACK
+	db 26, HARDEN
+	db 30, BRICK_BREAK
+	db 34, GUILLOTINE
+	db 38, SUBMISSION
 	db 43, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
@@ -3001,7 +3004,8 @@ HeracrossEvosAttacks:
 	db 6, HORN_ATTACK
 	db 12, ENDURE
 	db 19, FURY_ATTACK
-	db 27, COUNTER
+	db 25, BRICK_BREAK
+	db 30, COUNTER
 	db 35, TAKE_DOWN
 	db 44, REVERSAL
 	db 54, MEGAHORN
@@ -3309,7 +3313,8 @@ HitmontopEvosAttacks:
 	db 24, PURSUIT
 	db 24, QUICK_ATTACK
 	db 25, RAPID_SPIN
-	db 31, COUNTER
+	db 30, BRICK_BREAK
+	db 34, COUNTER
 	db 37, AGILITY
 	db 43, DETECT
 	db 49, TRIPLE_KICK
