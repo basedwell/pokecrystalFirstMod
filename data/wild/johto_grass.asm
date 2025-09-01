@@ -845,225 +845,225 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; day
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; nite
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, KRABBY
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 24, OMANYTE
+	db 24, OMASTAR
+	db 25, AERODACTYL
+	db 24, AERODACTYL
+	db 24, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; day
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; nite
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, KRABBY
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 24, OMANYTE
+	db 24, OMASTAR
+	db 25, AERODACTYL
+	db 24, AERODACTYL
+	db 24, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; day
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; nite
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, KRABBY
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 24, KABUTO
+	db 24, KABUTOPS
+	db 25, AERODACTYL
+	db 24, AERODACTYL
+	db 24, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
+; morn
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 24, AERODACTYL
 	; day
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 24, AERODACTYL
 	; nite
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, KRABBY
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 24, KABUTOPS
+	db 24, OMASTAR
+	db 25, AERODACTYL
+	db 24, AERODACTYL
+	db 24, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; day
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, SEEL
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 26, SEEL
+	db 26, KINGLER
+	db 25, GOLBAT
+	db 26, SEEL
+	db 24, AERODACTYL
 	; nite
-	db 22, KRABBY
-	db 23, ZUBAT
-	db 22, KRABBY
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	db 24, KABUTO
+	db 24, KABUTOPS
+	db 25, AERODACTYL
+	db 24, AERODACTYL
+	db 24, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, KRABBY
-	db 24, ZUBAT
-	db 23, SEEL
 	db 25, KRABBY
 	db 26, GOLBAT
-	db 25, SEEL
-	db 25, SEEL
+	db 27, SEEL
+	db 27, KABUTOPS
+	db 26, OMASTAR
+	db 26, AERODACTYL
+	db 27, AERODACTYL
 	; day
-	db 23, KRABBY
-	db 24, ZUBAT
-	db 23, SEEL
-	db 25, KRABBY
+	db 26, KRABBY
 	db 26, GOLBAT
-	db 25, SEEL
-	db 25, SEEL
+	db 28, SEEL
+	db 27, KABUTOPS
+	db 27, OMASTAR
+	db 26, AERODACTYL
+	db 28, AERODACTYL
 	; nite
-	db 23, KRABBY
-	db 24, ZUBAT
-	db 23, KRABBY
-	db 25, KRABBY
-	db 26, GOLBAT
-	db 25, GOLBAT
-	db 25, GOLBAT
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 26, OMASTAR
+	db 27, KABUTOPS
+	db 27, AERODACTYL
+	db 26, AERODACTYL
+	db 27, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, KRABBY
-	db 25, ZUBAT
-	db 24, SEEL
-	db 26, KRABBY
-	db 27, GOLBAT
-	db 26, SEEL
-	db 26, SEEL
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 27, AERODACTYL
+	db 27, KABUTOPS
+	db 26, OMASTAR
+	db 26, AERODACTYL
+	db 27, AERODACTYL
 	; day
-	db 24, KRABBY
-	db 25, ZUBAT
-	db 24, SEEL
-	db 26, KRABBY
-	db 27, GOLBAT
-	db 26, SEEL
-	db 26, SEEL
+	db 26, OMASTAR
+	db 26, KABUTO
+	db 28, AERODACYYL
+	db 27, KABUTOPS
+	db 27, OMASTAR
+	db 26, AERODACTYL
+	db 28, AERODACTYL
 	; nite
-	db 24, KRABBY
-	db 25, ZUBAT
-	db 24, KRABBY
-	db 26, KRABBY
-	db 27, GOLBAT
-	db 26, GOLBAT
-	db 26, GOLBAT
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 26, OMASTAR
+	db 27, KABUTOPS
+	db 27, AERODACTYL
+	db 26, AERODACTYL
+	db 27, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 25, KRABBY
-	db 26, ZUBAT
-	db 25, SEEL
-	db 27, KRABBY
-	db 28, GOLBAT
-	db 27, SEEL
-	db 27, SEEL
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 27, AERODACTYL
+	db 27, KABUTOPS
+	db 26, OMASTAR
+	db 26, AERODACTYL
+	db 27, AERODACTYL
 	; day
-	db 25, KRABBY
-	db 26, ZUBAT
-	db 25, SEEL
-	db 27, KRABBY
-	db 28, GOLBAT
-	db 27, SEEL
-	db 27, SEEL
+	db 26, OMASTAR
+	db 26, KABUTO
+	db 28, AERODACYYL
+	db 27, KABUTOPS
+	db 27, OMASTAR
+	db 26, AERODACTYL
+	db 28, AERODACTYL
 	; nite
-	db 25, KRABBY
-	db 26, ZUBAT
-	db 25, KRABBY
-	db 27, KRABBY
-	db 28, GOLBAT
-	db 27, GOLBAT
-	db 27, GOLBAT
+	db 25, OMANYTE
+	db 26, KABUTO
+	db 26, OMASTAR
+	db 27, KABUTOPS
+	db 27, AERODACTYL
+	db 26, AERODACTYL
+	db 27, AERODACTYL
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_1
