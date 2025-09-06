@@ -3395,6 +3395,7 @@ BattleAnim_Protect:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_BulletPunch:
 BattleAnim_MachPunch:
 	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
@@ -4348,6 +4349,7 @@ BattleAnim_HiddenPower:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_BrickBreak:
 BattleAnim_CrossChop:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
