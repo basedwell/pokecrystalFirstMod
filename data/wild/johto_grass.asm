@@ -1601,28 +1601,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, TANGELA
-	db 22, LICKITUNG
-	db 22, WEEPINBELL
-	db 24, LICKITUNG
-	db 24, MAGMAR
+	db 26, TANGELA
+	db 27, LICKITUNG
+	db 26, WEEPINBELL
+	db 27, LICKITUNG
+	db 28, MAGMAR
 	db 26, GLIGAR
 	db 26, GLIGAR
 	; day
-	db 23, TANGELA
-	db 22, LICKITUNG
-	db 22, WEEPINBELL
-	db 24, LICKITUNG
-	db 24, MAGMAR
+	db 26, TANGELA
+	db 27, LICKITUNG
+	db 26, WEEPINBELL
+	db 27, LICKITUNG
+	db 28, MAGMAR
 	db 26, GLIGAR
 	db 26, GLIGAR
 	; nite
-	db 23, TANGELA
-	db 22, POLIWAG
-	db 22, BELLSPROUT
-	db 24, WEEPINBELL
-	db 24, POLIWHIRL
-	db 26, POLIWHIRL
+	db 26, TANGELA
+	db 27, POLIWAG
+	db 26, BELLSPROUT
+	db 26, WEEPINBELL
+	db 27, POLIWHIRL
+	db 27, POLIWHIRL
 	db 26, POLIWHIRL
 	end_grass_wildmons
 
@@ -1685,29 +1685,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 41, TANGELA
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 58, AMPHAROS
+	db 59, RAPIDASH
+	db 60, JUMPLUFF
+	db 61, GOLDUCK
+	db 58, DODRIO
+	db 57, XATU
+	db 60, XATU
 	; day
-	db 41, TANGELA
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 58, TANGELA
+	db 59, RAPIDASH
+	db 60, JUMPLUFF
+	db 61, GOLDUCK
+	db 58, DODRIO
+	db 57, XATU
+	db 60, XATU
 	; nite
-	db 41, TANGELA
-	db 42, POLIWHIRL
-	db 42, GOLBAT
-	db 44, POLIWHIRL
-	db 40, GOLBAT
-	db 44, GOLBAT
-	db 44, GOLBAT
+	db 58, NOCTOWL
+	db 59, HAUNTER
+	db 60, ARIADOS
+	db 58, HYPNO
+	db 61, SNEASEL
+	db 60, POLIWHIRL
+	db 60, POLIWHIRL
 	end_grass_wildmons
 
 	db -1 ; end
