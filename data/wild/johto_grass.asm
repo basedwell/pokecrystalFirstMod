@@ -285,27 +285,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons BURNED_TOWER_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, RATTATA
+	db 15, RATTATA
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, RATTATA
+	db 15, MAGMAR
 	db 15, RATICATE
 	db 15, RATICATE
 	; day
-	db 13, RATTATA
+	db 15, RATTATA
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, RATTATA
+	db 15, MAGMAR
 	db 15, RATICATE
 	db 15, RATICATE
 	; nite
-	db 13, RATTATA
+	db 15, RATTATA
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, RATTATA
+	db 15, MAGMAR
 	db 15, RATICATE
 	db 15, RATICATE
 	end_grass_wildmons
@@ -313,28 +313,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, RATTATA
-	db 14, KOFFING
+	db 15, RATTATA
+	db 15, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 15, MAGMAR
+	db 16, WEEZING
 	db 16, WEEZING
 	; day
-	db 14, RATTATA
-	db 14, KOFFING
+	db 15, RATTATA
+	db 15, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 15, MAGMAR
+	db 16, WEEZING
 	db 16, WEEZING
 	; nite
-	db 14, RATTATA
-	db 14, KOFFING
+	db 15, RATTATA
+	db 15, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 15, MAGMAR
+	db 16, WEEZING
 	db 16, WEEZING
 	end_grass_wildmons
 
