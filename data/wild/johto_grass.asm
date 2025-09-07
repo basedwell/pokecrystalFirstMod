@@ -289,7 +289,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, MAGMAR
+	db 15, CHARMANDER
 	db 15, RATICATE
 	db 15, RATICATE
 	; day
@@ -297,7 +297,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, MAGMAR
+	db 15, CHARMANDER
 	db 15, RATICATE
 	db 15, RATICATE
 	; nite
@@ -305,7 +305,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, MAGMAR
+	db 15, CHARMANDER
 	db 15, RATICATE
 	db 15, RATICATE
 	end_grass_wildmons
@@ -317,7 +317,7 @@ JohtoGrassWildMons:
 	db 15, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 15, MAGMAR
+	db 15, CHARMANDER
 	db 16, WEEZING
 	db 16, WEEZING
 	; day
@@ -325,7 +325,7 @@ JohtoGrassWildMons:
 	db 15, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 15, MAGMAR
+	db 15, CHARMANDER
 	db 16, WEEZING
 	db 16, WEEZING
 	; nite
@@ -333,7 +333,7 @@ JohtoGrassWildMons:
 	db 15, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 15, MAGMAR
+	db 15, CHARMANDER
 	db 16, WEEZING
 	db 16, WEEZING
 	end_grass_wildmons
@@ -1549,7 +1549,7 @@ JohtoGrassWildMons:
 	db 15, SPEAROW
 	db 17, RATICATE
 	db 17, ARBOK
-	db 16, SQUIRTLE
+	db 16, MARILL
 	db 18, FEAROW
 	db 18, FEAROW
 	; day
@@ -1557,7 +1557,7 @@ JohtoGrassWildMons:
 	db 15, SPEAROW
 	db 17, RATICATE
 	db 17, ARBOK
-	db 16, SQUIRTLE
+	db 16, MARILL
 	db 18, FEAROW
 	db 18, FEAROW
 	; nite
@@ -1605,7 +1605,7 @@ JohtoGrassWildMons:
 	db 22, LICKITUNG
 	db 22, WEEPINBELL
 	db 24, LICKITUNG
-	db 24, CHARMANDER
+	db 24, MAGMAR
 	db 26, GLIGAR
 	db 26, GLIGAR
 	; day
@@ -1613,7 +1613,7 @@ JohtoGrassWildMons:
 	db 22, LICKITUNG
 	db 22, WEEPINBELL
 	db 24, LICKITUNG
-	db 24, CHARMANDER
+	db 24, MAGMAR
 	db 26, GLIGAR
 	db 26, GLIGAR
 	; nite
