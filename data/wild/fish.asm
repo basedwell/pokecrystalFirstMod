@@ -61,12 +61,12 @@ FishGroups:
 .Lake_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     GOLDEEN,    20
-	db  90 percent + 1, GOLDEEN,    20
+	db  90 percent + 1, REMORAID,   20
 	db 100 percent,     time_group 4
 .Lake_Super:
 	db  40 percent,     GOLDEEN,    40
 	db  70 percent,     time_group 5
-	db  90 percent + 1, MAGIKARP,   40
+	db  90 percent + 1, REMORAID,   40
 	db 100 percent,     SEAKING,    40
 
 .Pond_Old:
@@ -132,16 +132,16 @@ FishGroups:
 .Gyarados_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     MAGIKARP,   10
+	db 100 percent,     REMORAID,   10
 .Gyarados_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     MAGIKARP,   20
-	db  90 percent + 1, MAGIKARP,   20
+	db  90 percent + 1, REMORAID,   20
 	db 100 percent,     time_group 14
 .Gyarados_Super:
 	db  40 percent,     MAGIKARP,   40
 	db  70 percent,     time_group 15
-	db  90 percent + 1, MAGIKARP,   40
+	db  90 percent + 1, REMORAID,   40
 	db 100 percent,     MAGIKARP,   40
 
 .Dratini_2_Old:
@@ -213,8 +213,8 @@ TimeFishGroups:
 	db CORSOLA,    40,  STARYU,     40 ; 1
 	db SHELLDER,   20,  SHELLDER,   20 ; 2
 	db SHELLDER,   40,  SHELLDER,   40 ; 3
-	db GOLDEEN,    20,  GOLDEEN,    20 ; 4
-	db GOLDEEN,    40,  GOLDEEN,    40 ; 5
+	db REMORAID,   20,  REMORAID,   20 ; 4
+	db REMORAID,   40,  REMORAID,   40 ; 5
 	db POLIWAG,    20,  POLIWAG,    20 ; 6
 	db POLIWAG,    40,  POLIWAG,    40 ; 7
 	db DRATINI,    20,  DRATINI,    20 ; 8
