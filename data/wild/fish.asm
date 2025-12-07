@@ -36,8 +36,8 @@ FishGroups:
 .Shore_Super:
 	db  40 percent,     KRABBY,     40
 	db  70 percent,     time_group 1
-	db  90 percent + 1, KRABBY,     40
-	db 100 percent,     KINGLER,    40
+	db  90 percent + 1, KINGLER,     40
+	db 100 percent,     OMASTAR,    40
 
 .Ocean_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -165,14 +165,14 @@ FishGroups:
 	db 100 percent,     KRABBY,     10
 .WhirlIslands_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     KRABBY,     20
-	db  90 percent + 1, KRABBY,     20
+	db  70 percent,     KABUTO,     20
+	db  90 percent + 1, OMANYTE,    20
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
 	db  40 percent,     KRABBY,     40
 	db  70 percent,     time_group 19
-	db  90 percent + 1, KINGLER,    40
-	db 100 percent,     SEADRA,     40
+	db  90 percent + 1, KABUTOPS,   40
+	db 100 percent,     OMASTAR,    40
 
 .Qwilfish_NoSwarm_Old:
 .Qwilfish_Old:
@@ -227,7 +227,7 @@ TimeFishGroups:
 	db GYARADOS,   40,  GYARADOS,   40 ; 15
 	db DRATINI,    10,  DRATINI,    10 ; 16
 	db DRATINI,    10,  DRATINI,    10 ; 17
-	db HORSEA,     20,  HORSEA,     20 ; 18
-	db HORSEA,     40,  HORSEA,     40 ; 19
+	db KABUTO,     20,  OMANYTE,    20 ; 18
+	db KABUTOPS,   40,  OMASTAR,    40 ; 19
 	db TENTACOOL,  20,  TENTACOOL,  20 ; 20
 	db TENTACOOL,  40,  TENTACOOL,  40 ; 21
