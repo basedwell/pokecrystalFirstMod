@@ -194,15 +194,15 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_44
 	db 2 percent ; encounter rate
 	db 30, MANTINE
-	db 31, REMORAID
-	db 30, POLIWHIRL
+	db 31, POLIWHIRL
+	db 30, SQUIRTLE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_45
 	db 2 percent ; encounter rate
 	db 30, POLIWHIRL
+	db 30, HORSEA
 	db 30, SEADRA
-	db 30, REMORAID
 	end_water_wildmons
 
 	def_water_wildmons NEW_BARK_TOWN
