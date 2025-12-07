@@ -44,7 +44,7 @@ TrainerClassDVs:
 	dn 13, 12, 12, 12 ; SAILOR
 	dn 13, 12, 12, 12 ; SUPER_NERD
 ; BUG: RIVAL2 has lower DVs than RIVAL1 (see docs/bugs_and_glitches.md)
-	dn 13, 12, 12, 12 ; RIVAL2
+	dn 13, 12, 15, 15 ; RIVAL2
 	dn 13, 12, 12, 12 ; GUITARIST
 	dn 14, 12, 12, 12 ; HIKER
 	dn 13, 12, 12, 12 ; BIKER
