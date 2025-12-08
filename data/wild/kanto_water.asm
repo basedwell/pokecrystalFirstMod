@@ -139,7 +139,7 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 50, KABUTO
 	db 52, OMANYTE
-	db 51, OMASTAR
+	db 51, STARYU
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_CITY
@@ -153,12 +153,12 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 50, GRIMER
 	db 55, MUK
-	db 55, SLUGMA
+	db 55, PSYDUCK
 	end_water_wildmons
 
 	def_water_wildmons FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	db 50, MAGIKARP
+	db 50, PSYDUCK
 	db 45, DRATINI
 	db 50, DRAGONAIR
 	end_water_wildmons
@@ -167,7 +167,7 @@ KantoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 53, TENTACRUEL
 	db 55, DEWGONG
-	db 55, SEEL
+	db 55, PSYDUCK
 	end_water_wildmons
 
 	db -1 ; end
