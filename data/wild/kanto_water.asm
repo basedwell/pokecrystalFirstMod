@@ -81,37 +81,37 @@ KantoWaterWildMons:
 
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
-	db 10, POLIWHIRL
+	db 53, POLIWHIRL
+	db 57, POLIWRATH
+	db 55, POLITOED
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 52, SEAKING
+	db 53, SQUIRTLE
+	db 53, WARTORTLE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 52, SEAKING
+	db 53, SQUIRTLE
+	db 53, WARTORTLE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
-	db 30, TENTACOOL
-	db 25, TENTACOOL
-	db 30, TENTACRUEL
+	db 35, TENTACRUEL
+	db 35, SEAKING
+	db 38, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
+	db 35, TENTACRUEL
+	db 35, SEAKING
+	db 38, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
@@ -123,51 +123,51 @@ KantoWaterWildMons:
 
 	def_water_wildmons PALLET_TOWN
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 52, TENTACRUEL
+	db 50, SQUIRTLE
+	db 52, TOTODILE
 	end_water_wildmons
 
 	def_water_wildmons VIRIDIAN_CITY
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
-	db 10, POLIWHIRL
+	db 53, POLIWHIRL
+	db 57, POLIWRATH
+	db 55, POLITOED
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 50, KABUTO
+	db 52, OMANYTE
+	db 51, OMASTAR
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_CITY
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 42, TENTACOOL
+	db 44, MANTINE
+	db 45, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons CELADON_CITY
 	db 2 percent ; encounter rate
-	db 20, GRIMER
-	db 15, GRIMER
-	db 15, MUK
+	db 50, GRIMER
+	db 55, MUK
+	db 55, SLUGMA
 	end_water_wildmons
 
 	def_water_wildmons FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 10, MAGIKARP
+	db 50, MAGIKARP
+	db 45, DRATINI
+	db 50, DRAGONAIR
 	end_water_wildmons
 
 	def_water_wildmons CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 53, TENTACRUEL
+	db 55, DEWGONG
+	db 55, SEEL
 	end_water_wildmons
 
 	db -1 ; end
