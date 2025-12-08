@@ -4,37 +4,37 @@ KantoWaterWildMons:
 
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate
-	db 20, GOLDEEN
-	db 20, SLOWPOKE
-	db 20, SEAKING
+	db 32, GOLDEEN
+	db 30, SLOWPOKE
+	db 32, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons VERMILION_PORT
 	db 2 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 42, TENTACOOL
+	db 44, MANTINE
+	db 45, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
-	db 10, GOLDEEN
-	db 5, GOLDEEN
-	db 10, SEAKING
+	db 55, QUAGSIRE
+	db 60, PSYDUCK
+	db 55, OMASTAR
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_6
 	db 2 percent ; encounter rate
-	db 10, PSYDUCK
-	db 5, PSYDUCK
-	db 10, GOLDUCK
+	db 45, PSYDUCK
+	db 45, GOLDUCK
+	db 50, GOLDUCK
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_9
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
-	db 10, GOLDEEN
-	db 15, SEAKING
+	db 50, SEAKING
+	db 55, SEADRA
+	db 55, CROCONAW
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_10_NORTH
