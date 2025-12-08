@@ -39,44 +39,44 @@ KantoWaterWildMons:
 
 	def_water_wildmons ROUTE_10_NORTH
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
-	db 10, GOLDEEN
-	db 15, SEAKING
+	db 50, SEAKING
+	db 55, CHINCHOU
+	db 50, LANTURN
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_12
 	db 6 percent ; encounter rate
-	db 25, TENTACOOL
-	db 25, QUAGSIRE
-	db 25, TENTACRUEL
+	db 50, TENTACOOL
+	db 52, QUAGSIRE
+	db 50, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_13
 	db 6 percent ; encounter rate
-	db 25, TENTACOOL
-	db 25, QUAGSIRE
-	db 25, TENTACRUEL
+	db 50, TENTACRUEL
+	db 53, QUAGSIRE
+	db 52, REMORAID
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_19
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 53, GOLDUCK
+	db 52, TENTACRUEL
+	db 55, WARTORTLE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_20
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 52, SEEL
+	db 55, DEWGONG
+	db 52, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_21
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACRUEL
+	db 52, TENTACRUEL
+	db 50, MANTINE
+	db 52, TOTODILE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_22
