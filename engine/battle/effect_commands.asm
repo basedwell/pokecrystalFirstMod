@@ -6432,7 +6432,7 @@ BattleCommand_TimeBasedHealContinue:
 .start
 ; Index for .Multipliers
 ; Default restores half max HP.
-	ld c, 2
+	ld c, 3
 
 ; Don't bother healing if HP is already full.
 	push bc
@@ -6443,7 +6443,7 @@ BattleCommand_TimeBasedHealContinue:
 ; Don't factor in time of day in link battles.
 	ld a, [wLinkMode]
 	and a
-	jr nz, .Weather
+	jr z, .Weather
 
 	ld a, [wTimeOfDay]
 	cp b
