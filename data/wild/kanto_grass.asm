@@ -761,75 +761,75 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 63, DODUO
-	db 63, SANDSLASH
-	db 32, PONYTA
-	db 61, RATICATE
-	db 61, DODUO
-	db 61, ARBOK
-	db 61, ARBOK
+	db 37, DODUO
+	db 38, SANDSLASH
+	db 37, PONYTA
+	db 38, RATICATE
+	db 35, DODUO
+	db 37, ARBOK
+	db 37, ARBOK
 	; day
-	db 63, DODUO
-	db 63, SANDSLASH
-	db 32, PONYTA
-	db 61, RATICATE
-	db 61, DODUO
-	db 61, ARBOK
-	db 61, ARBOK
+	db 37, DODUO
+	db 38, SANDSLASH
+	db 37, PONYTA
+	db 38, RATICATE
+	db 35, DODUO
+	db 37, ARBOK
+	db 37, ARBOK
 	; nite
-	db 63, NOCTOWL
-	db 63, RATICATE
-	db 32, NOCTOWL
-	db 61, RATICATE
-	db 61, QUAGSIRE
-	db 61, QUAGSIRE
-	db 61, QUAGSIRE
+	db 37, NOCTOWL
+	db 38, RATICATE
+	db 37, NOCTOWL
+	db 38, RATICATE
+	db 35, QUAGSIRE
+	db 37, QUAGSIRE
+	db 37, QUAGSIRE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 63, DODUO
-	db 63, ARBOK
-	db 61, RATICATE
-	db 61, DODUO
-	db 32, PONYTA
-	db 61, DODRIO
-	db 61, DODRIO
+	db 37, DODUO
+	db 38, ARBOK
+	db 36, RATICATE
+	db 37, DODRIO
+	db 37, PONYTA
+	db 38, DODRIO
+	db 38, DODRIO
 	; day
-	db 63, DODUO
-	db 63, ARBOK
-	db 61, RATICATE
-	db 61, DODUO
-	db 32, PONYTA
-	db 61, DODRIO
-	db 61, DODRIO
+	db 37, DODUO
+	db 38, ARBOK
+	db 36, RATICATE
+	db 37, DODRIO
+	db 37, PONYTA
+	db 38, DODRIO
+	db 38, DODRIO
 	; nite
-	db 63, QUAGSIRE
-	db 63, NOCTOWL
-	db 61, RATICATE
-	db 61, QUAGSIRE
-	db 32, NOCTOWL
-	db 32, NOCTOWL
-	db 32, NOCTOWL
+	db 37, QUAGSIRE
+	db 38, NOCTOWL
+	db 38, RATICATE
+	db 39, QUAGSIRE
+	db 37, NOCTOWL
+	db 35, NOCTOWL
+	db 38, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_28
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, RAPIDASH
-	db 42, ARBOK
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 58, TANGELA
+	db 60, RAPIDASH
+	db 61, RAPIDASH
+	db 58, ARBOK
+	db 61, DODRIO
+	db 61, DODRIO
+	db 55, PIKACHU
 	; day
 	db 39, TANGELA
-	db 40, PONYTA
+	db 40, RAPIDASH
 	db 40, RAPIDASH
 	db 42, ARBOK
-	db 41, DODUO
+	db 41, DODRIO
 	db 43, DODRIO
 	db 43, DODRIO
 	; nite
