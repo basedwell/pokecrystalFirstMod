@@ -817,29 +817,29 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_28
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 58, TANGELA
+	db 58, SKIPLOOM
 	db 60, RAPIDASH
-	db 61, RAPIDASH
-	db 58, ARBOK
-	db 61, DODRIO
-	db 61, DODRIO
+	db 61, ARBOK
+	db 58, DODRIO
+	db 61, TEDDIURSA
+	db 61, CHARMELEON
 	db 55, PIKACHU
 	; day
-	db 39, TANGELA
-	db 40, RAPIDASH
-	db 40, RAPIDASH
-	db 42, ARBOK
-	db 41, DODRIO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 58, TANGELA
+	db 60, RAPIDASH
+	db 61, ARBOK
+	db 58, DODRIO
+	db 61, PHANPY
+	db 61, CHARMELEON
+	db 55, PIKACHU
 	; nite
-	db 39, TANGELA
-	db 40, POLIWHIRL
-	db 40, GOLBAT
-	db 40, POLIWHIRL
-	db 42, GOLBAT
-	db 42, GOLBAT
-	db 42, GOLBAT
+	db 58, TANGELA
+	db 60, POLIWHIRL
+	db 61, GOLBAT
+	db 58, DITTO
+	db 61, SNEASEL
+	db 61, QUILAVA
+	db 30, LARVITAR
 	end_grass_wildmons
 
 	db -1 ; end
