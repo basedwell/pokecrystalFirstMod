@@ -285,55 +285,55 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 50, PIDGEOT
-	db 50, GRANBULL
-	db 50, PIDGEOTTO
-	db 51, KADABRA
-	db 54, JIGGLYPUFF
-	db 54, KADABRA
-	db 54, KADABRA
+	db 48, PIDGEOT
+	db 46, GRANBULL
+	db 46, PIDGEOTTO
+	db 49, KADABRA
+	db 52, JIGGLYPUFF
+	db 50, KADABRA
+	db 50, KADABRA
 	; day
-	db 50, PIDGEOT
-	db 50, GRANBULL
-	db 50, PIDGEOTTO
-	db 51, KADABRA
-	db 54, JIGGLYPUFF
-	db 54, KADABRA
-	db 54, KADABRA
+	db 48, PIDGEOT
+	db 46, GRANBULL
+	db 46, PIDGEOTTO
+	db 49, KADABRA
+	db 52, JIGGLYPUFF
+	db 50, KADABRA
+	db 50, KADABRA
 	; nite
-	db 50, NOCTOWL
-	db 50, MEOWTH
+	db 48, NOCTOWL
+	db 48, MEOWTH
 	db 50, NOCTOWL
 	db 51, KADABRA
-	db 54, JIGGLYPUFF
-	db 54, KADABRA
-	db 54, KADABRA
+	db 47, JIGGLYPUFF
+	db 50, KADABRA
+	db 50, KADABRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 50, RATICATE
-	db 50, GRANBULL
-	db 54, MAGNETON
-	db 50, RATICATE
-	db 51, JIGGLYPUFF
-	db 50, GRANBULL
+	db 48, RATICATE
+	db 48, GRANBULL
+	db 51, MAGNETON
+	db 45, VULPIX
+	db 47, JIGGLYPUFF
+	db 49, GRANBULL
 	db 50, GRANBULL
 	; day
-	db 50, RATICATE
-	db 50, GRANBULL
-	db 54, MAGNETON
-	db 50, RATICATE
-	db 51, JIGGLYPUFF
-	db 50, GRANBULL
+	db 48, RATICATE
+	db 48, GRANBULL
+	db 51, MAGNETON
+	db 45, VULPIX
+	db 47, JIGGLYPUFF
+	db 49, GRANBULL
 	db 50, GRANBULL
 	; nite
-	db 50, PERSIAN
-	db 50, HYPNO
-	db 54, MAGNETON
-	db 50, GOLDUCK
-	db 51, JIGGLYPUFF
+	db 48, PERSIAN
+	db 48, HYPNO
+	db 50, MAGNETON
+	db 45, GOLDUCK
+	db 48, JIGGLYPUFF
 	db 50, RATICATE
 	db 50, RATICATE
 	end_grass_wildmons
@@ -341,29 +341,29 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 53, RATICATE
-	db 53, FEAROW
-	db 60, GRANBULL
-	db 60, RATICATE
-	db 60, JIGGLYPUFF
-	db 56, KADABRA
-	db 56, KADABRA
+	db 50, RATICATE
+	db 46, FEAROW
+	db 50, GRANBULL
+	db 45, VULPIX
+	db 51, JIGGLYPUFF
+	db 50, KADABRA
+	db 50, KADABRA
 	; day
-	db 53, RATICATE
-	db 53, FEAROW
-	db 60, GRANBULL
-	db 60, RATICATE
-	db 60, JIGGLYPUFF
-	db 56, KADABRA
-	db 56, KADABRA
+	db 50, RATICATE
+	db 46, FEAROW
+	db 50, GRANBULL
+	db 45, VULPIX
+	db 51, JIGGLYPUFF
+	db 50, KADABRA
+	db 50, KADABRA
 	; nite
-	db 53, PERSIAN
-	db 53, MURKROW
-	db 60, HOUNDOUR
-	db 60, PERSIAN
-	db 60, JIGGLYPUFF
-	db 56, KADABRA
-	db 56, KADABRA
+	db 50, PERSIAN
+	db 46, MURKROW
+	db 50, HOUNDOUR
+	db 45, PERSIAN
+	db 51, JIGGLYPUFF
+	db 50, KADABRA
+	db 50, KADABRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_8
