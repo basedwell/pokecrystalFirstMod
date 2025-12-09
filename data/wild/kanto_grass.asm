@@ -7,81 +7,81 @@ KantoGrassWildMons:
 	; morn
 	db 44, DIGLETT
 	db 46, DIGLETT
-	db 52, DIGLETT
-	db 54, DIGLETT
+	db 50, DIGLETT
+	db 50, DIGLETT
 	db 50, DUGTRIO
 	db 50, DUGTRIO
 	db 50, DUGTRIO
 	; day
 	db 44, DIGLETT
 	db 46, DIGLETT
-	db 52, DIGLETT
-	db 54, DIGLETT
+	db 50, DIGLETT
+	db 50, DIGLETT
 	db 50, DUGTRIO
 	db 50, DUGTRIO
 	db 50, DUGTRIO
 	; nite
+	db 44, DIGLETT
 	db 46, DIGLETT
-	db 48, DIGLETT
-	db 55, DIGLETT
-	db 54, DIGLETT
-	db 55, DUGTRIO
-	db 55, DUGTRIO
-	db 55, DUGTRIO
+	db 52, DUGTRIO
+	db 52, DUGTRIO
+	db 52, DUGTRIO
+	db 52, DUGTRIO
+	db 52, DUGTRIO
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 45, GOLBAT
-	db 48, GRAVELER
-	db 48, SANDSLASH
-	db 51, PARASECT
+	db 54, GOLBAT
+	db 53, GRAVELER
+	db 53, SANDSLASH
+	db 55, PARASECT
 	db 54, SANDSHREW
-	db 48, CLEFAIRY
-	db 48, CLEFAIRY
+	db 55, CLEFAIRY
+	db 55, CLEFAIRY
 	; day
-	db 45, GOLBAT
-	db 48, GRAVELER
-	db 48, SANDSLASH
-	db 51, PARASECT
+	db 54, GOLBAT
+	db 53, GRAVELER
+	db 53, SANDSLASH
+	db 55, PARASECT
 	db 54, SANDSHREW
-	db 48, CLEFAIRY
-	db 48, CLEFAIRY
+	db 55, CLEFAIRY
+	db 55, CLEFAIRY
 	; nite
-	db 45, GOLBAT
-	db 48, GRAVELER
-	db 48, CLEFAIRY
-	db 51, PARASECT
+	db 52, GOLBAT
+	db 50, GRAVELER
+	db 53, CLEFAIRY
+	db 55, PARASECT
 	db 54, SANDSHREW
-	db 51, CLEFAIRY
-	db 51, CLEFAIRY
+	db 55, CLEFAIRY
+	db 55, CLEFAIRY
 	end_grass_wildmons
 
 	def_grass_wildmons ROCK_TUNNEL_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 54, CUBONE
+	db 50, CUBONE
 	db 47, GRAVELER
-	db 51, MACHOKE
-	db 51, GOLBAT
-	db 50, MACHOP
-	db 51, MAROWAK
-	db 51, MAROWAK
+	db 48, MACHOKE
+	db 48, GOLBAT
+	db 48, MACHOP
+	db 50, MAROWAK
+	db 50, MAROWAK
 	; day
-	db 54, CUBONE
+	db 50, CUBONE
 	db 47, GRAVELER
-	db 51, MACHOKE
-	db 51, GOLBAT
-	db 50, MACHOP
-	db 51, MAROWAK
-	db 51, MAROWAK
+	db 48, MACHOKE
+	db 48, GOLBAT
+	db 48, MACHOP
+	db 50, MAROWAK
+	db 50, MAROWAK
 	; nite
-	db 51, GOLBAT
-	db 47, GRAVELER
-	db 51, GRAVELER
-	db 53, HAUNTER
 	db 50, GOLBAT
+	db 47, GRAVELER
+	db 47, GRAVELER
+	db 48, HAUNTER
+	db 48, GOLBAT
 	db 50, MAROWAK
 	db 50, MAROWAK
 	end_grass_wildmons
@@ -90,55 +90,55 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 51, CUBONE
-	db 54, GRAVELER
-	db 56, ONIX
-	db 51, KANGASKHAN
+	db 48, GRAVELER
+	db 48, ONIX
+	db 50, KANGASKHAN
 	db 50, MAROWAK
 	db 50, KANGASKHAN
 	db 50, KANGASKHAN
 	; day
 	db 51, CUBONE
-	db 54, GRAVELER
-	db 56, ONIX
-	db 51, KANGASKHAN
+	db 48, GRAVELER
+	db 48, ONIX
+	db 50, KANGASKHAN
 	db 50, MAROWAK
 	db 50, KANGASKHAN
 	db 50, KANGASKHAN
 	; nite
 	db 51, GOLBAT
-	db 54, GRAVELER
-	db 56, ONIX
+	db 48, GRAVELER
+	db 48, ONIX
 	db 50, KANGASKHAN
-	db 50, HAUNTER
-	db 50, GOLBAT
-	db 50, GOLBAT
+	db 48, HAUNTER
+	db 47, GOLBAT
+	db 47, GOLBAT
 	end_grass_wildmons
 
 	def_grass_wildmons VICTORY_ROAD
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 42, GRAVELER
-	db 44, RHYHORN
-	db 45, ONIX
-	db 42, GOLBAT
-	db 43, SANDSLASH
+	db 40, GRAVELER
+	db 42, RHYHORN
+	db 42, ONIX
+	db 40, GOLBAT
+	db 43, MACHOKE
 	db 45, RHYDON
 	db 45, RHYDON
 	; day
-	db 42, GRAVELER
-	db 44, RHYHORN
-	db 45, ONIX
-	db 42, GOLBAT
-	db 43, SANDSLASH
+	db 40, GRAVELER
+	db 42, RHYHORN
+	db 42, ONIX
+	db 40, GOLBAT
+	db 43, MACHOKE
 	db 45, RHYDON
 	db 45, RHYDON
 	; nite
-	db 42, GOLBAT
-	db 44, GRAVELER
-	db 42, ONIX
-	db 44, RHYDON
+	db 40, GOLBAT
+	db 42, GRAVELER
+	db 40, ONIX
+	db 40, RHYDON
+	db 43, GRAVELER
 	db 45, GRAVELER
-	db 44, GRAVELER
 	db 45, GRAVELER
 	end_grass_wildmons
 
@@ -148,26 +148,26 @@ KantoGrassWildMons:
 	db 40, GOLBAT
 	db 42, RATICATE
 	db 40, GOLBAT
-	db 41, SLOWPOKE
-	db 40, RATTATA
-	db 43, SLOWBRO
-	db 43, SLOWBRO
+	db 38, SLOWBRO
+	db 40, GOLDUCK
+	db 42, SLOWPOKE
+	db 42, SLOWBRO
 	; day
 	db 40, GOLBAT
 	db 42, RATICATE
 	db 40, GOLBAT
-	db 41, SLOWPOKE
-	db 40, RATTATA
-	db 43, SLOWBRO
-	db 43, SLOWBRO
+	db 38, SLOWBRO
+	db 40, GOLDUCK
+	db 42, SLOWPOKE
+	db 42, SLOWBRO
 	; nite
 	db 40, GOLBAT
 	db 42, RATICATE
 	db 40, GOLBAT
-	db 41, SLOWPOKE
-	db 40, RATTATA
-	db 43, SLOWBRO
-	db 43, SLOWBRO
+	db 38, SLOWBRO
+	db 40, GOLDUCK
+	db 42, SLOWPOKE
+	db 42, SLOWBRO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
