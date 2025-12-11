@@ -126,7 +126,7 @@ OlivineLighthouseAmphy:
 	end
 
 OlivineLighthouse6FSuperPotion:
-	itemball SUPER_POTION
+	itemball THUNDER_STONE
 
 OlivineLighthouseJasmineLeavesUpMovement:
 	slow_step UP
