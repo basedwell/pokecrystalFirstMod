@@ -2213,7 +2213,7 @@ CyndaquilEvosAttacks:
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 19, QUICK_ATTACK
-	db 27, FLAME_WHEEL
+	db 22, FLAME_WHEEL
 	db 36, SWIFT
 	db 46, FLAMETHROWER
 	db 0 ; no more level-up moves
@@ -2227,9 +2227,9 @@ QuilavaEvosAttacks:
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 42, SWIFT
-	db 54, FLAMETHROWER
+	db 27, FLAME_WHEEL
+	db 34, SWIFT
+	db 44, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 TyphlosionEvosAttacks:
@@ -2241,9 +2241,9 @@ TyphlosionEvosAttacks:
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 21, QUICK_ATTACK
-	db 31, FLAME_WHEEL
-	db 45, SWIFT
-	db 60, FLAMETHROWER
+	db 29, FLAME_WHEEL
+	db 38, SWIFT
+	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
@@ -2257,10 +2257,11 @@ TotodileEvosAttacks:
 	db 27, SCARY_FACE
 	db 35, SLASH
 	db 43, SCREECH
-	db 46, ROCK_SLIDE
+	db 46, SWORDS_DANCE
 	db 50, CRUNCH
+	db 50, THRASH
 	db 55, HYDRO_PUMP
-	db 60, THRASH
+	db 60, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
@@ -2275,10 +2276,11 @@ CroconawEvosAttacks:
 	db 28, SCARY_FACE
 	db 37, SLASH
 	db 45, SCREECH
-	db 52, ROCK_SLIDE
+	db 52, SWORDS_DANCE
 	db 57, CRUNCH
+	db 57, THRASH
 	db 62, HYDRO_PUMP
-	db 67, THRASH
+	db 67, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
@@ -2293,10 +2295,11 @@ FeraligatrEvosAttacks:
 	db 28, SCARY_FACE
 	db 38, SLASH
 	db 47, SCREECH
-	db 54, ROCK_SLIDE
+	db 54, SWORDS DANCE
 	db 61, CRUNCH
+	db 61, THRASH
 	db 67, HYDRO_PUMP
-	db 74, THRASH
+	db 74, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
