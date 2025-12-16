@@ -3024,6 +3024,7 @@ SneaselEvosAttacks:
 	db 25, FAINT_ATTACK
 	db 33, FURY_SWIPES
 	db 41, SWORDS_DANCE
+	db 45, BRICK_BREAK
 	db 49, SLASH
 	db 57, BEAT_UP
 	db 65, METAL_CLAW
