@@ -1116,7 +1116,7 @@ RapidashEvosAttacks:
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
-	db EVOLVE_LEVEL, 37, SLOWBRO
+	db EVOLVE_LEVEL, 35, SLOWBRO
 	db EVOLVE_ITEM, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, CURSE
@@ -2642,14 +2642,18 @@ PolitoedEvosAttacks:
 	db 1, DOUBLESLAP
 	db 1, PERISH_SONG
 	db 6, HYPNOSIS
+	db 10, VINE_WHIP
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 27, RAIN_DANCE
+	db 31, RAZOR_LEAF
 	db 35, PERISH_SONG
+	db 38, PETAL_DANCE
 	db 40, BELLY_DRUM
 	db 45, BODY_SLAM
 	db 51, SWAGGER
 	db 56, HYDRO_PUMP
+	db 60, SLEEP_POWDER
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
@@ -2819,12 +2823,16 @@ SlowkingEvosAttacks:
 	db 1, CURSE
 	db 1, TACKLE
 	db 6, GROWL
+	db 10, SMOG
 	db 15, WATER_GUN
-	db 20, CONFUSION
+	db 20, BITE
+	db 25, SLUDGE
 	db 29, DISABLE
+	db 31, FAINT_ATTACK
 	db 34, HEADBUTT
+	db 39, ACID_ARMOR
 	db 43, SWAGGER
-	db 48, PSYCHIC_M
+	db 48, CRUNCH
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
