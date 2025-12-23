@@ -2295,7 +2295,7 @@ FeraligatrEvosAttacks:
 	db 28, SCARY_FACE
 	db 38, SLASH
 	db 47, SCREECH
-	db 54, SWORDS DANCE
+	db 54, SWORDS_DANCE
 	db 61, CRUNCH
 	db 61, THRASH
 	db 67, HYDRO_PUMP
