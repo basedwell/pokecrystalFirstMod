@@ -50,7 +50,6 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
@@ -136,8 +135,6 @@ ItemDescriptions:
 	dw BasementKeyDesc
 	dw PassDesc
 	dw TeruSama9Desc
-	dw TeruSama10Desc
-	dw TeruSama11Desc
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
@@ -145,11 +142,7 @@ ItemDescriptions:
 	dw TeruSama13Desc
 	dw MetalCoatDesc
 	dw DragonFangDesc
-	dw TeruSama14Desc
 	dw LeftoversDesc
-	dw TeruSama15Desc
-	dw TeruSama16Desc
-	dw TeruSama17Desc
 	dw MysteryBerryDesc
 	dw DragonScaleDesc
 	dw BerserkGeneDesc
