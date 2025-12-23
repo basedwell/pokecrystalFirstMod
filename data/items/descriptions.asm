@@ -245,6 +245,13 @@ ItemDescriptions:
 	dw TeruSama28Desc
 	dw TeruSama28Desc
 	dw TeruSama28Desc
+	dw TeruSama28Desc
+	dw TeruSama28Desc
+	dw TeruSama28Desc
+	dw TeruSama28Desc
+	dw TeruSama28Desc
+	dw TeruSama28Desc
+	dw TeruSama28Desc
 	dw TeruSama29Desc
 	dw TeruSama30Desc
 	dw TeruSama31Desc
