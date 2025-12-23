@@ -1023,7 +1023,7 @@ JohtoGrassWildMons:
 	; day
 	db 26, OMASTAR
 	db 26, KABUTO
-	db 28, AERODACYYL
+	db 28, AERODACTYL
 	db 27, KABUTOPS
 	db 27, OMASTAR
 	db 26, AERODACTYL
@@ -1575,7 +1575,7 @@ JohtoGrassWildMons:
 	; morn
 	db 15, FURRET
 	db 16, PIDGEOTTO
-	db 16, GIRAGARIG 
+	db 16, GIRAFARIG 
 	db 15, FARFETCH_D
 	db 17, MANKEY
 	db 17, YANMA
