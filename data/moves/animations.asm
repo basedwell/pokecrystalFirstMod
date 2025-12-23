@@ -256,6 +256,7 @@ BattleAnimations::
 	dw BattleAnim_BrickBreak
 	dw BattleAnim_BulletPunch
 	assert_table_length NUM_ATTACKS + 1
+	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
