@@ -1,6 +1,6 @@
 _OakText6::
 	text "Now, what did you"
-	line "say your name was?"
+	line "say yur name was?"
 	prompt
 
 _OakText7::
