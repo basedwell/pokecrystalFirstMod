@@ -1051,7 +1051,7 @@ JohtoGrassWildMons:
 	; day
 	db 26, OMASTAR
 	db 26, KABUTO
-	db 28, AERODACYYL
+	db 28, AERODACTYL
 	db 27, KABUTOPS
 	db 27, OMASTAR
 	db 26, AERODACTYL
