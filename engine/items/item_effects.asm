@@ -154,6 +154,7 @@ ItemEffects:
 	dw NoEffect            ; ITEM_8D
 	dw NoEffect            ; ITEM_8E
 	dw EvoStoneEffect      ; METAL_COAT
+	dw NoEffect            ; DRAGON_FANG
 	dw NoEffect            ; LEFTOVERS
 	dw RestorePPEffect     ; MYSTERYBERRY
 	dw EvoStoneEffect      ; DRAGON_SCALE
