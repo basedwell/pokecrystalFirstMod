@@ -185,7 +185,7 @@ MartGoldenrod5F4:
 
 MartOlivine:
 	db 10 ; # items
-	db THUNDER_STONE
+	db THUNDERSTONE
 	db GREAT_BALL
 	db SUPER_POTION
 	db HYPER_POTION
