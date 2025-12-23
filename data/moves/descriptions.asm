@@ -258,8 +258,6 @@ MoveDescriptions::
 	dw MoveFCDescription
 	dw MoveFDDescription
 	dw MoveFEDescription
-	dw MoveFFDescription
-	dw Move00Description
 	assert_table_length $100
 
 MoveFCDescription:
