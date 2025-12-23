@@ -142,7 +142,7 @@ MartGoldenrod5F1:
 	db TM_ICE_PUNCH
 	db TM_LIGHT_SCREEN
 	db TM_REFLECT
-	db TM_SUBTITUTE
+	db TM_SUBSTITUTE
 	db TM_RETURN
 	db -1 ; end
 
@@ -154,7 +154,7 @@ MartGoldenrod5F2:
 	db TM_HEADBUTT
 	db TM_LIGHT_SCREEN
 	db TM_REFLECT
-	db TM_SUBTITUTE
+	db TM_SUBSTITUTE
 	db TM_RETURN
 	db -1 ; end
 
@@ -166,7 +166,7 @@ MartGoldenrod5F3:
 	db TM_ROCK_SMASH
 	db TM_LIGHT_SCREEN
 	db TM_REFLECT
-	db TM_SUBTITUTE
+	db TM_SUBSTITUTE
 	db TM_RETURN
 	db -1 ; end
 
@@ -179,7 +179,7 @@ MartGoldenrod5F4:
 	db TM_ROCK_SMASH
 	db TM_LIGHT_SCREEN
 	db TM_REFLECT
-	db TM_SUBTITUTE
+	db TM_SUBSTITUTE
 	db TM_RETURN
 	db -1 ; end
 
