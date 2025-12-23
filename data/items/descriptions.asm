@@ -452,9 +452,6 @@ XAttackDesc:
 	db   "Raises ATTACK."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
-
 XDefendDesc:
 	db   "Raises DEFENSE."
 	next "(1 BTL)@"
@@ -784,12 +781,6 @@ PassDesc:
 TeruSama9Desc:
 	db   "?@"
 
-TeruSama10Desc:
-	db   "?@"
-
-TeruSama11Desc:
-	db   "?@"
-
 CharcoalDesc:
 	db   "Powers up fire-"
 	next "type moves. (HOLD)@"
@@ -816,21 +807,9 @@ DragonFangDesc:
 	db   "Powers up dragon-"
 	next "type moves. (HOLD)@"
 
-TeruSama14Desc:
-	db   "?@"
-
 LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
-
-TeruSama15Desc:
-	db   "?@"
-
-TeruSama16Desc:
-	db   "?@"
-
-TeruSama17Desc:
-	db   "?@"
 
 MysteryBerryDesc:
 	db   "A self-restore"
