@@ -3198,8 +3198,8 @@ HoundourEvosAttacks:
 	db 1, LEER
 	db 1, EMBER
 	db 7, ROAR
-	db 13, SMOG
-	db 20, BITE
+	db 11, SMOG
+	db 16, BITE
 	db 27, FAINT_ATTACK
 	db 35, FLAMETHROWER
 	db 43, CRUNCH
@@ -3210,11 +3210,11 @@ HoundoomEvosAttacks:
 	db 1, LEER
 	db 1, EMBER
 	db 7, ROAR
-	db 13, SMOG
-	db 20, BITE
+	db 12, SMOG
+	db 18, BITE
 	db 30, FAINT_ATTACK
 	db 41, FLAMETHROWER
-	db 52, CRUNCH
+	db 50, CRUNCH
 	db 0 ; no more level-up moves
 
 KingdraEvosAttacks:
