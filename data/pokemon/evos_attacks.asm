@@ -1778,9 +1778,9 @@ JynxEvosAttacks:
 	db 1, LICK
 	db 1, LOVELY_KISS
 	db 1, POWDER_SNOW
-	db 9, LOVELY_KISS
-	db 13, POWDER_SNOW
-	db 21, DOUBLESLAP
+	db 9, POWDER_SNOW
+	db 13, DOUBLESLAP
+	db 16, LOVELY_KISS
 	db 25, ICE_PUNCH
 	db 35, MEAN_LOOK
 	db 41, BODY_SLAM
@@ -1795,7 +1795,7 @@ ElectabuzzEvosAttacks:
 	db 1, THUNDERPUNCH
 	db 9, THUNDERPUNCH
 	db 17, LIGHT_SCREEN
-	db 25, SWIFT
+	db 24, SWIFT
 	db 36, SCREECH
 	db 47, THUNDERBOLT
 	db 58, THUNDER
@@ -1810,7 +1810,7 @@ MagmarEvosAttacks:
 	db 7, LEER
 	db 13, SMOG
 	db 19, FIRE_PUNCH
-	db 25, SMOKESCREEN
+	db 24, SMOKESCREEN
 	db 33, SUNNY_DAY
 	db 41, FLAMETHROWER
 	db 49, CONFUSE_RAY
@@ -3333,14 +3333,15 @@ HitmontopEvosAttacks:
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:
-	db EVOLVE_LEVEL, 30, JYNX
+	db EVOLVE_LEVEL, 25, JYNX
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, LICK
+	db 1, SING
 	db 9, SWEET_KISS
 	db 13, POWDER_SNOW
 	db 21, CONFUSION
-	db 25, SING
+	db 24, LOVELY_KISS
 	db 33, MEAN_LOOK
 	db 37, PSYCHIC_M
 	db 45, PERISH_SONG
@@ -3348,26 +3349,26 @@ SmoochumEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
-	db EVOLVE_LEVEL, 30, ELECTABUZZ
+	db EVOLVE_LEVEL, 25, ELECTABUZZ
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 9, THUNDERPUNCH
 	db 17, LIGHT_SCREEN
-	db 25, SWIFT
+	db 24, SWIFT
 	db 33, SCREECH
 	db 41, THUNDERBOLT
 	db 49, THUNDER
 	db 0 ; no more level-up moves
 
 MagbyEvosAttacks:
-	db EVOLVE_LEVEL, 30, MAGMAR
+	db EVOLVE_LEVEL, 25, MAGMAR
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 7, LEER
 	db 13, SMOG
 	db 19, FIRE_PUNCH
-	db 25, SMOKESCREEN
+	db 24, SMOKESCREEN
 	db 31, SUNNY_DAY
 	db 37, FLAMETHROWER
 	db 43, CONFUSE_RAY
