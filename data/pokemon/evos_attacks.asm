@@ -1565,8 +1565,9 @@ KoffingEvosAttacks:
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
 	db 33, HAZE
-	db 41, EXPLOSION
-	db 45, DESTINY_BOND
+	db 40, SLUDGE_BOMB
+	db 43, EXPLOSION
+	db 48, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 WeezingEvosAttacks:
@@ -1580,6 +1581,7 @@ WeezingEvosAttacks:
 	db 21, SLUDGE
 	db 25, SMOKESCREEN
 	db 33, HAZE
+	db 40, SLUDGE_BOMB
 	db 44, EXPLOSION
 	db 51, DESTINY_BOND
 	db 0 ; no more level-up moves
@@ -2496,8 +2498,10 @@ TogepiEvosAttacks:
 	db 1, GROWL
 	db 1, CHARM
 	db 7, METRONOME
+	db 12, CONFUSION
 	db 18, SWEET_KISS
 	db 25, ENCORE
+	db 28, PSYBEAM
 	db 31, SAFEGUARD
 	db 38, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2507,8 +2511,10 @@ TogeticEvosAttacks:
 	db 1, GROWL
 	db 1, CHARM
 	db 7, METRONOME
+	db 12, CONFUSION
 	db 18, SWEET_KISS
 	db 25, ENCORE
+	db 28, PSYBEAM
 	db 31, SAFEGUARD
 	db 38, DOUBLE_EDGE
 	db 0 ; no more level-up moves
