@@ -2999,7 +2999,9 @@ ScizorEvosAttacks:
 	db 24, AGILITY
 	db 33, METAL_CLAW
 	db 36, SLASH
+	db 40, BULLET_PUNCH
 	db 42, SWORDS_DANCE
+	db 45, METAL_CLAW
 	db 48, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
