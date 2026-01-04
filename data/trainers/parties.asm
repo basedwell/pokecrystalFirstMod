@@ -44,8 +44,8 @@ BugsyGroup:
 MortyGroup:
 	; MORTY (1)
 	db "MORTY@", TRAINERTYPE_MOVES
-	db 21, HAUNTER,    HYPNOSIS, NIGHT_SHADE, MEAN_LOOK, CURSE
-	db 21, GENGAR,     GIGA_DRAIN, FIRE_PUNCH, PSYCHIC_M, THUNDERBOLT
+	db 22, HAUNTER,    HYPNOSIS, NIGHT_SHADE, MEAN_LOOK, CURSE
+	db 24, GENGAR,     GIGA_DRAIN, FIRE_PUNCH, PSYCHIC_M, THUNDERBOLT
 	db 25, MISDREAVUS, MEAN_LOOK, SHADOW_BALL, PERISH_SONG, CONFUSE_RAY
 	db 25, GENGAR,     HYPNOSIS, SHADOW_BALL, NIGHTMARE, DREAM_EATER
 	db 23, HAUNTER,    HYPNOSIS, MEAN_LOOK, NIGHTMARE, CURSE
@@ -396,15 +396,16 @@ YoungsterGroup:
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db 13, RATTATA
-	db 12, SANDSHREW
-	db 14, SPEAROW
+	db 15, SANDSHREW
+	db 16, SPEAROW
 	db 15, FLAAFFY
 	db -1 ; end
 
 	; YOUNGSTER (6)
 	db "IAN@", TRAINERTYPE_NORMAL
-	db 12, MANKEY
-	db 14, DIGLETT
+	db 14, MANKEY
+	db 16, DIGLETT
+	db 13, PONYTA
 	db -1 ; end
 
 	; YOUNGSTER (7)
@@ -642,18 +643,18 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (4)
 	db "THEO@", TRAINERTYPE_NORMAL
-	db 19, PIDGEY
-	db 21, PIDGEOTTO
-	db 20, PIDGEOTTO
-	db 21, PIDGEOT
-	db 19, PIDGEY
+	db 21, PIDGEY
+	db 23, PIDGEOTTO
+	db 22, PIDGEOTTO
+	db 23, PIDGEOT
+	db 21, PIDGEY
 	db -1 ; end
 
 	; BIRD_KEEPER (5)
 	db "TOBY@", TRAINERTYPE_NORMAL
-	db 21, DODUO
 	db 22, DODUO
-	db 20, DODRIO
+	db 22, DODUO
+	db 21, DODRIO
 	db -1 ; end
 
 	; BIRD_KEEPER (6)
@@ -1291,6 +1292,7 @@ PokemaniacGroup:
 	; POKEMANIAC (11)
 	db "ISSAC@", TRAINERTYPE_MOVES
 	db 12, LICKITUNG,  LICK, SUPERSONIC, CUT, MUD_SLAP
+	db 11, MR__MIME,   
 	db -1 ; end
 
 	; POKEMANIAC (12)
@@ -1321,6 +1323,7 @@ GruntMGroup:
 	; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 14, KOFFING
+	db 12, GRIMER
 	db -1 ; end
 
 	; GRUNTM (2)
@@ -1498,8 +1501,8 @@ GruntMGroup:
 
 	; GRUNTM (29)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, RATTATA
+	db  11, RATTATA
+	db  11, RATTATA
 	db -1 ; end
 
 	; GRUNTM (30)
@@ -2654,16 +2657,16 @@ FirebreatherGroup:
 
 	; FIREBREATHER (5)
 	db "BILL@", TRAINERTYPE_NORMAL
-	db  6, KOFFING
-	db  6, KOFFING
-	db  7, ZUBAT
+	db  8, KOFFING
+	db  10, KOFFING
+	db  8, ZUBAT
 	db -1 ; end
 
 	; FIREBREATHER (6)
 	db "WALT@", TRAINERTYPE_NORMAL
-	db 12, MAGMAR
-	db 13, MAGMAR
-	dB 11, CHARMANDER
+	db 14, MAGMAR
+	db 15, MAGMAR
+	dB 13, CHARMANDER
 	db -1 ; end
 
 	; FIREBREATHER (7)
@@ -2689,7 +2692,7 @@ JugglerGroup:
 
 	; JUGGLER (2)
 	db "FRITZ@", TRAINERTYPE_NORMAL
-	db 44, MR__MIME
+	db 44, 
 	db 44, MAGMAR
 	db 45, MACHOKE
 	db -1 ; end
@@ -3365,7 +3368,8 @@ BoarderGroup:
 PokefanMGroup:
 	; POKEFANM (1)
 	db "WILLIAM@", TRAINERTYPE_ITEM
-	db 14, RAICHU,     BERRY
+	db 17, RAICHU,     BERRY
+	db 16, CLEFABLE,   BERRY
 	db -1 ; end
 
 	; POKEFANM (2)
@@ -3423,7 +3427,8 @@ PokefanMGroup:
 
 	; POKEFANM (10)
 	db "DEREK@", TRAINERTYPE_ITEM
-	db 19, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
+	db 27, AZUMARILL,  BERRY
 	db -1 ; end
 
 	; POKEFANM (11)
@@ -3485,10 +3490,10 @@ KimonoGirlGroup:
 TwinsGroup:
 	; TWINS (1)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, SPINARAK
-	db 12, ARIADOS
-	db 10, LEDYBA
-	db 12, LEDIAN
+	db 11, SPINARAK
+	db 13, ARIADOS
+	db 11, LEDYBA
+	db 13, LEDIAN
 	db -1 ; end
 
 	; TWINS (2)
@@ -3505,10 +3510,10 @@ TwinsGroup:
 
 	; TWINS (4)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, SPINARAK
-	db 12, ARIADOS
-	db 10, LEDYBA
-	db 12, LEDIAN
+	db 11, SPINARAK
+	db 13, ARIADOS
+	db 11, LEDYBA
+	db 13, LEDIAN
 	db -1 ; end
 
 	; TWINS (5)
@@ -3550,7 +3555,7 @@ TwinsGroup:
 PokefanFGroup:
 	; POKEFANF (1)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 14, SNUBBULL,   BERRY
+	db 16, SNUBBULL,   BERRY
 	db -1 ; end
 
 	; POKEFANF (2)
@@ -3613,8 +3618,8 @@ OfficerGroup:
 
 	; OFFICER (2)
 	db "DIRK@", TRAINERTYPE_NORMAL
-	db 14, GROWLITHE
-	db 14, GROWLITHE
+	db 15, GROWLITHE
+	db 15, GROWLITHE
 	db -1 ; end
 
 GruntFGroup:
