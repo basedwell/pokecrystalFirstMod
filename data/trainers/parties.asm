@@ -1292,7 +1292,7 @@ PokemaniacGroup:
 	; POKEMANIAC (11)
 	db "ISSAC@", TRAINERTYPE_MOVES
 	db 12, LICKITUNG,  LICK, SUPERSONIC, CUT, MUD_SLAP
-	db 11, MR__MIME,   
+	db 11, FARFETCH_D, PECK, SAND_ATTACK, QUICK_ATTACK, MIRROR_MOVE
 	db -1 ; end
 
 	; POKEMANIAC (12)
@@ -2692,7 +2692,7 @@ JugglerGroup:
 
 	; JUGGLER (2)
 	db "FRITZ@", TRAINERTYPE_NORMAL
-	db 44, 
+	db 44, MR__MIME
 	db 44, MAGMAR
 	db 45, MACHOKE
 	db -1 ; end
@@ -3253,16 +3253,16 @@ SageGroup:
 
 	; SAGE (5)
 	db "JEFFREY@", TRAINERTYPE_NORMAL
-	db 22, HAUNTER
+	db 23, HAUNTER
 	db -1 ; end
 
 	; SAGE (6)
 	db "PING@", TRAINERTYPE_NORMAL
-	db 17, GASTLY
-	db 17, GASTLY
-	db 17, GASTLY
-	db 17, GASTLY
-	db 17, GASTLY
+	db 19, GASTLY
+	db 19, GASTLY
+	db 19, GASTLY
+	db 19, GASTLY
+	db 19, GASTLY
 	db -1 ; end
 
 	; SAGE (7)
@@ -3307,14 +3307,14 @@ MediumGroup:
 	; MEDIUM (1)
 	db "MARTHA@", TRAINERTYPE_NORMAL
 	db 18, GASTLY
-	db 20, HAUNTER
-	db 20, GASTLY
+	db 21, HAUNTER
+	db 21, GASTLY
 	db -1 ; end
 
 	; MEDIUM (2)
 	db "GRACE@", TRAINERTYPE_NORMAL
-	db 20, HAUNTER
-	db 20, HAUNTER
+	db 21, HAUNTER
+	db 21, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (3)
