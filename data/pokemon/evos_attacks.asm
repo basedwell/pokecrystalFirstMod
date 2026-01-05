@@ -2500,6 +2500,7 @@ TogepiEvosAttacks:
 	db 7, METRONOME
 	db 12, CONFUSION
 	db 18, SWEET_KISS
+	db 21, SING
 	db 25, ENCORE
 	db 28, PSYBEAM
 	db 31, SAFEGUARD
@@ -2513,6 +2514,7 @@ TogeticEvosAttacks:
 	db 7, METRONOME
 	db 12, CONFUSION
 	db 18, SWEET_KISS
+	db 21, SING
 	db 25, ENCORE
 	db 28, PSYBEAM
 	db 31, SAFEGUARD
