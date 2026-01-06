@@ -4,6 +4,7 @@ DEF GOLDENRODGAMECORNER_TM38_COINS      EQU 1000
 DEF GOLDENRODGAMECORNER_ABRA_COINS      EQU 100
 DEF GOLDENRODGAMECORNER_CUBONE_COINS    EQU 400
 DEF GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 850
+DEF GOLDENRODGAMECORNER_PORYGON_COINS   EQU 1100
 
 	object_const_def
 	const GOLDENRODGAMECORNER_CLERK
@@ -173,6 +174,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal 1, .Abra
 	ifequal 2, .Cubone
 	ifequal 3, .Wobbuffet
+	ifequal 4, .Porygon
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
 .Abra:
@@ -229,6 +231,24 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 
+.Porygon:
+	checkcoins GOLDENRODGAMECORNER_PORYGON_COINS
+	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
+	getmonname STRING_BUFFER_3, PORYGON
+	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
+	waitbutton
+	setval PORYGON
+	special GameCornerPrizeMonCheckDex
+	givepoke PORYGON, 14
+	takecoins GOLDENRODGAMECORNER_PORYGON_COINS
+	sjump .loop
+
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 0, 2, 17, TEXTBOX_Y - 1
@@ -237,10 +257,11 @@ GoldenrodGameCornerPrizeMonVendorScript:
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 4 ; items
+	db 5 ; items
 	db "ABRA        100@"
 	db "CUBONE      400@"
 	db "WOBBUFFET   850@"
+	db "PORYGON    1100@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
