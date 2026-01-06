@@ -23,6 +23,34 @@ OlivineCafeStrengthSailorScript:
 	closetext
 	end
 
+OlivineCafeTrashcan:
+	checkevent EVENT_FOUND_TWISTEDSPOON_IN_OLIVINE_CAFE
+	iftrue .TrashEmpty
+	giveitem TWISTEDSPOON
+	iffalse .PackFull
+	opentext
+	getitemname STRING_BUFFER_3, TWISTEDSPOON
+	writetext FoundTwistedSpoonText
+	playsound SFX_ITEM
+	waitsfx
+	itemnotify
+	closetext
+	setevent EVENT_FOUND_TWISTEDSPOON_IN_OLIVINE_CAFE
+	end
+
+.PackFull:
+	opentext
+	getitemname STRING_BUFFER_3, TWISTEDSPOON
+	writetext FoundTwistedSpoonText
+	promptbutton
+	writetext NoRoomForTwistedSpoonText
+	waitbutton
+	closetext
+	end
+
+.TrashEmpty:
+	jumpstd TrashCanScript
+
 OlivineCafeFishingGuruScript:
 	jumptextfaceplayer OlivineCafeFishingGuruText
 
@@ -76,6 +104,18 @@ OlivineCafeSailorText:
 	line "stop eating!"
 	done
 
+FoundTwistedSpoonText:
+	text "<PLAYER> found"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	done
+
+NoRoomForTwistedSpoonText:
+	text "But <PLAYER> can't"
+	line "hold another item…"
+	done
+
 OlivineCafe_MapEvents:
 	db 0, 0 ; filler
 
@@ -86,6 +126,7 @@ OlivineCafe_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event  7,  7, BGEVENT_READ, OlivineCafeTrashcan
 
 	def_object_events
 	object_event  4,  3, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeStrengthSailorScript, -1
