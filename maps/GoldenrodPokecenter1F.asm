@@ -15,8 +15,8 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd PokecenterNurseScript
 
 GoldenrodPokecenter1F_GSBallSceneLeft:
-	checkcode VAR_BADGES
-	if_equal 4, .gsball
+	readvar VAR_BADGES
+	ifgreater 3, .gsball
 	end
 
 .gsball
@@ -46,8 +46,8 @@ GoldenrodPokecenter1F_GSBallSceneLeft:
 	end
 
 GoldenrodPokecenter1F_GSBallSceneRight:
-	checkcode VAR_BADGES
-	if_equal 4, .gsball
+	readvar VAR_BADGES
+	ifgreater 3, .gsball
 	end
 
 .gsball
