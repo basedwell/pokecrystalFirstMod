@@ -1590,7 +1590,7 @@ JohtoGrassWildMons:
 	db 17, YANMA
 	; nite
 	db 15, VENONAT
-	db 16, RATOCATE
+	db 16, RATICATE
 	db 16, SKARMORY
 	db 17, CHANSEY
 	db 17, RATICATE
