@@ -761,57 +761,57 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 37, DODUO
-	db 38, SANDSLASH
-	db 37, PONYTA
-	db 38, RATICATE
 	db 35, DODUO
-	db 37, ARBOK
-	db 37, ARBOK
+	db 36, SANDSLASH
+	db 35, PONYTA
+	db 34, RATICATE
+	db 35, DODUO
+	db 34, ARBOK
+	db 34, ARBOK
 	; day
-	db 37, DODUO
-	db 38, SANDSLASH
-	db 37, PONYTA
-	db 38, RATICATE
 	db 35, DODUO
-	db 37, ARBOK
-	db 37, ARBOK
+	db 36, SANDSLASH
+	db 35, PONYTA
+	db 34, RATICATE
+	db 35, DODUO
+	db 34, ARBOK
+	db 34, ARBOK
 	; nite
-	db 37, NOCTOWL
-	db 38, RATICATE
-	db 37, NOCTOWL
-	db 38, RATICATE
-	db 35, QUAGSIRE
-	db 37, QUAGSIRE
-	db 37, QUAGSIRE
+	db 35, NOCTOWL
+	db 36, RATICATE
+	db 34, NOCTOWL
+	db 36, RATICATE
+	db 34, QUAGSIRE
+	db 34, QUAGSIRE
+	db 34, QUAGSIRE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_27
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 37, DODUO
-	db 38, ARBOK
+	db 34, DODUO
+	db 35, ARBOK
 	db 36, RATICATE
+	db 34, DODRIO
+	db 34, PONYTA
+	db 35, DODRIO
 	db 37, DODRIO
-	db 37, PONYTA
-	db 38, DODRIO
-	db 38, DODRIO
 	; day
-	db 37, DODUO
-	db 38, ARBOK
+	db 34, DODUO
+	db 35, ARBOK
 	db 36, RATICATE
+	db 34, DODRIO
+	db 34, PONYTA
+	db 35, DODRIO
 	db 37, DODRIO
-	db 37, PONYTA
-	db 38, DODRIO
-	db 38, DODRIO
 	; nite
-	db 37, QUAGSIRE
-	db 38, NOCTOWL
-	db 38, RATICATE
-	db 39, QUAGSIRE
-	db 37, NOCTOWL
+	db 34, QUAGSIRE
 	db 35, NOCTOWL
-	db 38, NOCTOWL
+	db 36, RATICATE
+	db 34, QUAGSIRE
+	db 34, NOCTOWL
+	db 35, NOCTOWL
+	db 37, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_28
