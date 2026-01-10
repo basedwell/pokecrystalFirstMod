@@ -565,29 +565,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ILEX_FOREST
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 5, BULBASAUR
-	db 6, PARAS
-	db 6, PARAS
+	db 11, CATERPIE
+	db 12, WEEDLE
+	db 13, KAKUNA
+	db 13, PIDGEY
+	db 11, BULBASAUR
+	db 12, PARAS
+	db 12, PARAS
 	; day
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 5, BULBASAUR
-	db 6, PARAS
-	db 6, PARAS
+	db 11, CATERPIE
+	db 12, WEEDLE
+	db 13, KAKUNA
+	db 13, PIDGEY
+	db 11, BULBASAUR
+	db 12, PARAS
+	db 12, PARAS
 	; nite
-	db 5, ODDISH
-	db 5, VENONAT
-	db 7, ODDISH
-	db 7, PSYDUCK
-	db 7, HOOTHOOT
-	db 6, BULBASAUR
-	db 6, BULBASAUR
+	db 11, ODDISH
+	db 12, VENONAT
+	db 13, ODDISH
+	db 13, PSYDUCK
+	db 13, HOOTHOOT
+	db 11, BULBASAUR
+	db 11, BULBASAUR
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1321,27 +1321,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
-	db 5, MAREEP
-	db 7, BELLSPROUT
-	db 6, HOPPIP
-	db 7, SLUGMA
+	db 7, EKANS
+	db 8, MAREEP
+	db 8, BELLSPROUT
 	db 7, HOPPIP
-	db 7, HOPPIP
+	db 8, SLUGMA
+	db 8, HOPPIP
+	db 8, HOPPIP
 	; day
-	db 4, EKANS
-	db 5, MAREEP
-	db 7, BELLSPROUT
-	db 6, HOPPIP
-	db 7, SLUGMA
+	db 7, EKANS
+	db 8, MAREEP
+	db 8, BELLSPROUT
 	db 7, HOPPIP
-	db 7, HOPPIP
+	db 8, SLUGMA
+	db 8, HOPPIP
+	db 8, HOPPIP
 	; nite
-	db 4, WOOPER
-	db 5, RATTATA
-	db 7, HOUNDOUR
-	db 6, ZUBAT
-	db 7, HOOTHOOT
+	db 7, WOOPER
+	db 8, RATTATA
+	db 8, HOUNDOUR
+	db 7, ZUBAT
+	db 8, HOOTHOOT
 	db 7, GASTLY
 	db 7, GASTLY
 	end_grass_wildmons
@@ -1590,9 +1590,9 @@ JohtoGrassWildMons:
 	db 17, YANMA
 	; nite
 	db 15, VENONAT
-	db 16, NOCTOWL
-	db 16, RATICATE
-	db 17, SKARMORY
+	db 16, RATOCATE
+	db 16, SKARMORY
+	db 17, CHANSEY
 	db 17, RATICATE
 	db 17, VENOMOTH
 	db 17, VENOMOTH
