@@ -102,16 +102,16 @@ KantoWaterWildMons:
 
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
-	db 35, TENTACRUEL
-	db 35, SEAKING
-	db 38, POLIWHIRL
+	db 34, TENTACRUEL
+	db 34, SEAKING
+	db 35, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent ; encounter rate
-	db 35, TENTACRUEL
-	db 35, SEAKING
-	db 38, POLIWHIRL
+	db 34, TENTACRUEL
+	db 34, SEAKING
+	db 35, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
