@@ -781,7 +781,7 @@ TryEnemyFlee:
 
 	call BattleRandom
 	ld b, a
-	cp 20 percent + 1
+	cp 25 percent + 1
 	jr nc, .Stay
 
 	push bc
@@ -793,7 +793,7 @@ TryEnemyFlee:
 	jr c, .Flee
 
 	ld a, b
-	cp 5 percent + 1
+	cp 10 percent + 1
 	jr nc, .Stay
 
 	ld a, [wTempEnemyMonSpecies]
