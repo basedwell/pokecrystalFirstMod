@@ -2214,7 +2214,7 @@ CyndaquilEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER
 	db 6, SMOKESCREEN
-	db 12, EMBER
+	db 9, EMBER
 	db 19, QUICK_ATTACK
 	db 22, FLAME_WHEEL
 	db 36, SWIFT
@@ -2228,7 +2228,7 @@ QuilavaEvosAttacks:
 	db 1, LEER
 	db 1, SMOKESCREEN
 	db 6, SMOKESCREEN
-	db 12, EMBER
+	db 9, EMBER
 	db 21, QUICK_ATTACK
 	db 27, FLAME_WHEEL
 	db 34, SWIFT
