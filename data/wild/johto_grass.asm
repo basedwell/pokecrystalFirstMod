@@ -593,57 +593,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, GEODUDE
-	db 19, RATICATE
-	db 19, MACHOP
-	db 18, OMANYTE
-	db 18, ZUBAT
-	db 18, GOLBAT
+	db 15, GEODUDE
+	db 17, RATICATE
+	db 16, MACHOP
+	db 15, OMANYTE
+	db 16, ZUBAT
+	db 16, GOLBAT
 	db 18, GOLBAT
 	; day
-	db 17, GEODUDE
-	db 19, RATICATE
-	db 18, MACHOP
-	db 19, OMANYTE
-	db 20, ZUBAT
-	db 20, GOLBAT
-	db 20, GOLBAT
+	db 15, GEODUDE
+	db 17, RATICATE
+	db 16, MACHOP
+	db 15, OMANYTE
+	db 16, ZUBAT
+	db 18, GOLBAT
+	db 17, GOLBAT
 	; nite
-	db 17, GEODUDE
-	db 19, GOLBAT
-	db 20, MARILL
-	db 20, OMANYTE
-	db 17, CUBONE
-	db 20, GOLBAT
-	db 20, CUBONE
+	db 15, GEODUDE
+	db 17, GOLBAT
+	db 18, MARILL
+	db 17, OMANYTE
+	db 15, CUBONE
+	db 16, GOLBAT
+	db 18, CUBONE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, GEODUDE
-	db 19, RATICATE
-	db 19, MACHOP
-	db 18, OMANYTE
-	db 18, ZUBAT
-	db 18, GOLBAT
+	db 15, GEODUDE
+	db 17, RATICATE
+	db 16, MACHOP
+	db 15, OMANYTE
+	db 16, ZUBAT
+	db 16, GOLBAT
 	db 18, GOLBAT
 	; day
-	db 17, GEODUDE
-	db 19, RATICATE
-	db 18, MACHOP
-	db 19, OMANYTE
-	db 20, ZUBAT
-	db 20, GOLBAT
-	db 20, GOLBAT
+	db 15, GEODUDE
+	db 17, RATICATE
+	db 16, MACHOP
+	db 15, OMANYTE
+	db 16, ZUBAT
+	db 18, GOLBAT
+	db 17, GOLBAT
 	; nite
-	db 17, GEODUDE
-	db 19, GOLBAT
-	db 20, MARILL
-	db 20, OMANYTE
-	db 17, CUBONE
-	db 20, GOLBAT
-	db 20, CUBONE
+	db 15, GEODUDE
+	db 17, GOLBAT
+	db 18, MARILL
+	db 17, OMANYTE
+	db 15, CUBONE
+	db 16, GOLBAT
+	db 18, CUBONE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
@@ -677,29 +677,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons MOUNT_MORTAR_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, GEODUDE
-	db 19, RATICATE
-	db 19, MACHOP
-	db 18, OMANYTE
-	db 18, ZUBAT
-	db 18, GOLBAT
+	db 15, GEODUDE
+	db 17, RATICATE
+	db 16, MACHOP
+	db 15, OMANYTE
+	db 16, ZUBAT
+	db 16, GOLBAT
 	db 18, GOLBAT
 	; day
-	db 17, GEODUDE
-	db 19, RATICATE
-	db 18, MACHOP
-	db 19, OMANYTE
-	db 20, ZUBAT
-	db 20, GOLBAT
-	db 20, GOLBAT
+	db 15, GEODUDE
+	db 17, RATICATE
+	db 16, MACHOP
+	db 15, OMANYTE
+	db 16, ZUBAT
+	db 18, GOLBAT
+	db 17, GOLBAT
 	; nite
-	db 17, GEODUDE
-	db 19, GOLBAT
-	db 20, MARILL
-	db 20, OMANYTE
-	db 17, CUBONE
-	db 20, GOLBAT
-	db 20, CUBONE
+	db 15, GEODUDE
+	db 17, GOLBAT
+	db 18, MARILL
+	db 17, OMANYTE
+	db 15, CUBONE
+	db 16, GOLBAT
+	db 18, CUBONE
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
