@@ -14,7 +14,6 @@ SometimesFleeMons:
 	db UMBREON
 	db UNOWN
 	db SNUBBULL
-	db HERACROSS
 	db -1
 
 OftenFleeMons:
