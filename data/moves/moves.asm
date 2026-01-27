@@ -46,7 +46,7 @@ Moves:
 	move HORN_ATTACK,  EFFECT_NORMAL_HIT,         65, BUG,          100, 25,   0
 	move FURY_ATTACK,  EFFECT_MULTI_HIT,          15, NORMAL,        85, 20,   0
 	move HORN_DRILL,   EFFECT_OHKO,                1, NORMAL,        30,  5,   0
-	move TACKLE,       EFFECT_NORMAL_HIT,         35, NORMAL,        95, 35,   0
+	move TACKLE,       EFFECT_NORMAL_HIT,         35, NORMAL,       100, 35,   0
 	move BODY_SLAM,    EFFECT_PARALYZE_HIT,       85, NORMAL,       100, 15,  30
 	move WRAP,         EFFECT_TRAP_TARGET,        15, NORMAL,        85, 20,   0
 	move TAKE_DOWN,    EFFECT_RECOIL_HIT,         90, NORMAL,        85, 20,   0
@@ -60,10 +60,10 @@ Moves:
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,         100, 25,  30
 	move GROWL,        EFFECT_ATTACK_DOWN,         0, NORMAL,       100, 40,   0
 	move ROAR,         EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
-	move SING,         EFFECT_SLEEP,               0, NORMAL,        55, 15,   0
+	move SING,         EFFECT_SLEEP,               0, NORMAL,        60, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, NORMAL,        55, 20,   0
 	move SONICBOOM,    EFFECT_STATIC_DAMAGE,      20, NORMAL,        90, 20,   0
-	move DISABLE,      EFFECT_DISABLE,             0, NORMAL,        55, 20,   0
+	move DISABLE,      EFFECT_DISABLE,             0, NORMAL,        90, 20,   0
 	move ACID,         EFFECT_DEFENSE_DOWN_HIT,   40, POISON,       100, 30,  10
 	move EMBER,        EFFECT_BURN_HIT,           40, FIRE,         100, 25,  10
 	move FLAMETHROWER, EFFECT_BURN_HIT,           95, FIRE,         100, 15,  10
@@ -122,7 +122,7 @@ Moves:
 	move HARDEN,       EFFECT_DEFENSE_UP,          0, NORMAL,       100, 30,   0
 	move MINIMIZE,     EFFECT_EVASION_UP,          0, NORMAL,       100, 20,   0
 	move SMOKESCREEN,  EFFECT_ACCURACY_DOWN,       0, NORMAL,       100, 20,   0
-	move CONFUSE_RAY,  EFFECT_CONFUSE,             0, GHOST,        100, 10,   0
+	move CONFUSE_RAY,  EFFECT_CONFUSE,             0, GHOST,         95, 10,   0
 	move WITHDRAW,     EFFECT_DEFENSE_UP,          0, WATER,        100, 40,   0
 	move DEFENSE_CURL, EFFECT_DEFENSE_CURL,        0, NORMAL,       100, 40,   0
 	move BARRIER,      EFFECT_DEFENSE_UP_2,        0, PSYCHIC_TYPE, 100, 30,   0
@@ -209,13 +209,13 @@ Moves:
 	move FORESIGHT,    EFFECT_FORESIGHT,           0, NORMAL,       100, 40,   0
 	move DESTINY_BOND, EFFECT_DESTINY_BOND,        0, GHOST,        100,  5,   0
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,       100,  5,   0
-	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,           95, 15, 100
+	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     65, ICE,           95, 15, 100
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING,     100,  5,   0
 	move BONE_RUSH,    EFFECT_MULTI_HIT,          25, GROUND,        80, 10,   0
 	move LOCK_ON,      EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
 	move OUTRAGE,      EFFECT_RAMPAGE,            90, DRAGON,       100, 15,   0
 	move SANDSTORM,    EFFECT_SANDSTORM,           0, ROCK,         100, 10,   0
-	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          60, GRASS,        100,  5,   0
+	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          65, GRASS,        100, 10,   0
 	move ENDURE,       EFFECT_ENDURE,              0, NORMAL,       100, 10,   0
 	move CHARM,        EFFECT_ATTACK_DOWN_2,       0, NORMAL,       100, 20,   0
 	move ROLLOUT,      EFFECT_ROLLOUT,            30, ROCK,          90, 20,   0
@@ -238,7 +238,7 @@ Moves:
 	move MAGNITUDE,    EFFECT_MAGNITUDE,           1, GROUND,       100, 30,   0
 	move DYNAMICPUNCH, EFFECT_CONFUSE_HIT,       100, FIGHTING,      70,  5, 100
 	move MEGAHORN,     EFFECT_NORMAL_HIT,        120, BUG,           85, 10,   0
-	move DRAGONBREATH, EFFECT_PARALYZE_HIT,       60, DRAGON,       100, 20,  30
+	move DRAGONBREATH, EFFECT_PARALYZE_HIT,       75, DRAGON,       100, 20,  30
 	move BATON_PASS,   EFFECT_BATON_PASS,          0, NORMAL,       100, 40,   0
 	move ENCORE,       EFFECT_ENCORE,              0, NORMAL,       100,  5,   0
 	move PURSUIT,      EFFECT_PURSUIT,            45, DARK,         100, 20,   0
