@@ -118,28 +118,28 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 40, GRAVELER
-	db 42, RHYHORN
-	db 42, ONIX
-	db 40, GOLBAT
-	db 43, MACHOKE
-	db 45, RHYDON
-	db 45, RHYDON
+	db 38, RHYHORN
+	db 40, ONIX
+	db 39, GOLBAT
+	db 41, MACHOKE
+	db 42, RHYDON
+	db 42, RHYDON
 	; day
 	db 40, GRAVELER
-	db 42, RHYHORN
-	db 42, ONIX
-	db 40, GOLBAT
-	db 43, MACHOKE
-	db 45, RHYDON
-	db 45, RHYDON
+	db 38, RHYHORN
+	db 40, ONIX
+	db 39, GOLBAT
+	db 41, MACHOKE
+	db 42, RHYDON
+	db 42, RHYDON
 	; nite
 	db 40, GOLBAT
-	db 42, GRAVELER
+	db 38, GRAVELER
 	db 40, ONIX
 	db 40, RHYDON
-	db 43, GRAVELER
-	db 45, GRAVELER
-	db 45, GRAVELER
+	db 37, GRAVELER
+	db 40, GRAVELER
+	db 42, GRAVELER
 	end_grass_wildmons
 
 	def_grass_wildmons TOHJO_FALLS
