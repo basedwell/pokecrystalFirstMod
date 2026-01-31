@@ -1,3 +1,6 @@
+object_const_def
+	const ROUTE10NORTH_ZAPDOS
+
 Route10North_MapScripts:
 	def_scene_scripts
 
