@@ -7,7 +7,7 @@ JohtoGrassWildMons:
 	; morn
 	db 3, RATTATA
 	db 4, RATTATA
-	db 5, RATTATA
+	db 5, MR__MIME
 	db 3, RATTATA
 	db 6, RATTATA
 	db 5, RATTATA
@@ -15,7 +15,7 @@ JohtoGrassWildMons:
 	; day
 	db 3, RATTATA
 	db 4, RATTATA
-	db 5, RATTATA
+	db 5, MR__MIME
 	db 3, RATTATA
 	db 6, RATTATA
 	db 5, RATTATA
@@ -23,7 +23,7 @@ JohtoGrassWildMons:
 	; nite
 	db 3, GASTLY
 	db 4, GASTLY
-	db 5, GASTLY
+	db 5, MR__MIME
 	db 3, RATTATA
 	db 6, GASTLY
 	db 5, RATTATA
@@ -35,7 +35,7 @@ JohtoGrassWildMons:
 	; morn
 	db 3, RATTATA
 	db 4, RATTATA
-	db 5, RATTATA
+	db 5, MR__MIME
 	db 3, RATTATA
 	db 6, RATTATA
 	db 5, RATTATA
@@ -43,7 +43,7 @@ JohtoGrassWildMons:
 	; day
 	db 3, RATTATA
 	db 4, RATTATA
-	db 5, RATTATA
+	db 5, MR__MIME
 	db 3, RATTATA
 	db 6, RATTATA
 	db 5, RATTATA
@@ -51,7 +51,7 @@ JohtoGrassWildMons:
 	; nite
 	db 3, GASTLY
 	db 4, GASTLY
-	db 5, GASTLY
+	db 5, MR__MIME
 	db 3, RATTATA
 	db 6, GASTLY
 	db 5, RATTATA
@@ -289,7 +289,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, CHARMANDER
+	db 15, SLUGMA
 	db 15, RATICATE
 	db 15, RATICATE
 	; day
@@ -297,7 +297,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, CHARMANDER
+	db 15, SLUGMA
 	db 15, RATICATE
 	db 15, RATICATE
 	; nite
@@ -305,7 +305,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, CHARMANDER
+	db 15, SLUGMA
 	db 15, RATICATE
 	db 15, RATICATE
 	end_grass_wildmons
@@ -1325,7 +1325,7 @@ JohtoGrassWildMons:
 	db 8, MAREEP
 	db 8, BELLSPROUT
 	db 7, HOPPIP
-	db 8, SLUGMA
+	db 8, CHARMANDER
 	db 8, HOPPIP
 	db 8, HOPPIP
 	; day
@@ -1333,7 +1333,7 @@ JohtoGrassWildMons:
 	db 8, MAREEP
 	db 8, BELLSPROUT
 	db 7, HOPPIP
-	db 8, SLUGMA
+	db 8, CHARMANDER
 	db 8, HOPPIP
 	db 8, HOPPIP
 	; nite
