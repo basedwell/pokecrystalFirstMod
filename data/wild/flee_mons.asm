@@ -22,7 +22,6 @@ OftenFleeMons:
 	db CUBONE
 	db QUAGSIRE
 	db DELIBIRD
-	
 	db -1
 
 AlwaysFleeMons:
