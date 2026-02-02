@@ -1900,8 +1900,8 @@ EeveeEvosAttacks:
 	db 8, SAND_ATTACK
 	db 16, GROWL
 	db 23, QUICK_ATTACK
+	db 25, BATON_PASS
 	db 30, BITE
-	db 36, BATON_PASS
 	db 42, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -2794,8 +2794,9 @@ EspeonEvosAttacks:
 	db 8, SAND_ATTACK
 	db 16, CONFUSION
 	db 23, QUICK_ATTACK
-	db 30, SWIFT
+	db 30, CONFUSION
 	db 36, PSYBEAM
+	db 40, BATON_PASS
 	db 42, PSYCH_UP
 	db 47, PSYCHIC_M
 	db 52, MORNING_SUN
@@ -2810,6 +2811,7 @@ UmbreonEvosAttacks:
 	db 23, QUICK_ATTACK
 	db 30, CONFUSE_RAY
 	db 36, FAINT_ATTACK
+	db 40, BATON_PASS
 	db 42, MEAN_LOOK
 	db 47, SCREECH
 	db 52, MOONLIGHT
