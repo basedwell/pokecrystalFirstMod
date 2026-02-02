@@ -26,8 +26,8 @@ FishGroups:
 
 .Shore_Old:
 	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, CHINCHOU,   10
-	db 100 percent,     KRABBY,     10
+	db  85 percent + 1, KRABBY,     10
+	db 100 percent,     CHINCHOU,   10
 .Shore_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     CHINCHOU,   20
@@ -41,7 +41,7 @@ FishGroups:
 
 .Ocean_Old:
 	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, SQUIRTLE,   10
+	db  85 percent + 1, CHINCHOU,   10
 	db 100 percent,     TENTACOOL,  10
 .Ocean_Good:
 	db  35 percent,     MAGIKARP,   20
