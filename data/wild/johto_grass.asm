@@ -1660,7 +1660,7 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
-	db 3, RATTATA
+	db 3, TEDDIURSA
 	db 2, PHANPY
 	db 2, PIKACHU
 	db 2, EEVEE
@@ -1668,7 +1668,7 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
-	db 3, RATTATA
+	db 3, TEDDIURSA
 	db 2, PHANPY
 	db 2, AIPOM
 	db 2, EEVEE
@@ -1677,9 +1677,9 @@ JohtoGrassWildMons:
 	db 2, RATTATA
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, PHANPY
 	db 2, LARVITAR
-	db 2, EEVEE
+	db 2, GLIGAR
+	db 2, SNEASEL
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
