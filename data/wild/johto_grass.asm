@@ -454,25 +454,25 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 8, GEODUDE
-	db 6, ZUBAT
+	db 6, ONIX
 	db 8, KABUTO
-	db 8, ONIX
+	db 8, SQUIRTLE
 	db 6, RATTATA
 	db 8, RATTATA
 	db 8, RATTATA
 	; day
 	db 8, GEODUDE
-	db 6, ZUBAT
+	db 6, ONIX
 	db 8, KABUTO
-	db 8, ONIX
+	db 8, SQUIRTLE
 	db 6, RATTATA
 	db 8, RATTATA
 	db 8, RATTATA
 	; nite
 	db 8, GEODUDE
-	db 6, ZUBAT
+	db 6, ONIX
 	db 8, WOOPER
-	db 8, ONIX
+	db 8, SQUIRTLE
 	db 6, KABUTO
 	db 8, KABUTO
 	db 8, RATTATA
