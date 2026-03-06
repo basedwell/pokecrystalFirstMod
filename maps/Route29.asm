@@ -43,7 +43,7 @@ Route29Tutorial1:
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
-	iffalse _RefusedTutorial1
+	iffalse Script_RefusedTutorial1
 	closetext
 	follow ROUTE29_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
@@ -68,7 +68,7 @@ Route29Tutorial2:
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
-	iffalse _RefusedTutorial2
+	iffalse Script_RefusedTutorial2
 	closetext
 	follow ROUTE29_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
@@ -84,7 +84,7 @@ Route29Tutorial2:
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
-_RefusedTutorial1:
+Script_RefusedTutorial1:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
 	closetext
@@ -92,7 +92,7 @@ _RefusedTutorial1:
 	setscene SCENE_ROUTE29_NOOP
 	end
 
-_RefusedTutorial2:
+Script_RefusedTutorial2:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
 	closetext
@@ -100,7 +100,7 @@ _RefusedTutorial2:
 	setscene SCENE_ROUTE29_NOOP
 	end
 
-CatchingTutorialDude:
+CatchingTutorialDudeScript:
 	faceplayer
 	opentext
 	readvar VAR_BOXSPACE
@@ -134,16 +134,16 @@ CatchingTutorialDude:
 	closetext
 	end
 
-Route29Youngster:
+Route29YoungsterScript:
 	jumptextfaceplayer Route29YoungsterText
 
-Route29Teacher:
+Route29TeacherScript:
 	jumptextfaceplayer Route29TeacherText
 
-Route29Fisher:
+Route29FisherScript:
 	jumptextfaceplayer Route29FisherText
 
-Route29CooltrainerM:
+Route29CooltrainerMScript:
 	faceplayer
 	opentext
 	checktime DAY
