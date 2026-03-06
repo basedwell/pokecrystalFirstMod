@@ -34,7 +34,7 @@ Route32Noop3Scene:
 
 Route32FriedaCallback:
 	checkevent EVENT_GOT_POISON_BARB_FROM_FRIEDA
-	iftrue .FriedaAppears
+	iffalse .FriedaAppears
 	endcallback
 
 .FriedaAppears:
