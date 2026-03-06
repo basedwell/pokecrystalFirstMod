@@ -21,12 +21,15 @@ BlackthornCityFlypointCallback:
 	endcallback
 
 BlackthornCitySantosCallback:
-	.SantosAppears
+	checkevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
+	iffalse .SantosAppears
+	disappear BLACKTHORNCITY_SANTOS
 	endcallback
 
 .SantosAppears:
 	appear BLACKTHORNCITY_SANTOS
 	endcallback
+
 
 BlackthornSuperNerdScript:
 	faceplayer
