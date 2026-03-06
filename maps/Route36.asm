@@ -25,7 +25,9 @@ Route36Noop2Scene:
 	end
 
 Route36ArthurCallback:
-	.ArthurAppears
+	checkevent EVENT_GOT_HARD_STONE_FROM_ARTHUR
+	iffalse .ArthurAppears
+    disappear ROUTE36_ARTHUR
 	endcallback
 
 .ArthurAppears:
