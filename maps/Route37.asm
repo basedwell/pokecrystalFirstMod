@@ -14,7 +14,9 @@ Route37_MapScripts:
 	callback MAPCALLBACK_OBJECTS, Route37SunnyCallback
 
 Route37SunnyCallback:
-	.SunnyAppears
+	checkevent EVENT_GOT_MAGNET_FROM_SUNNY
+	iffalse .SunnyAppears
+	disappear ROUTE37_SUNNY
 	endcallback
 
 .SunnyAppears:
