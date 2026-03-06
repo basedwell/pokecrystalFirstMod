@@ -43,7 +43,7 @@ Route29Tutorial1:
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
-	iffalse Script_RefusedTutorial1
+	iffalse _RefusedTutorial1
 	closetext
 	follow ROUTE29_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData1b
@@ -68,7 +68,7 @@ Route29Tutorial2:
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
-	iffalse Script_RefusedTutorial2
+	iffalse _RefusedTutorial2
 	closetext
 	follow ROUTE29_COOLTRAINER_M1, PLAYER
 	applymovement ROUTE29_COOLTRAINER_M1, DudeMovementData2b
@@ -84,7 +84,7 @@ Route29Tutorial2:
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
 	end
 
-Script_RefusedTutorial1:
+_RefusedTutorial1:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
 	closetext
@@ -92,7 +92,7 @@ Script_RefusedTutorial1:
 	setscene SCENE_ROUTE29_NOOP
 	end
 
-Script_RefusedTutorial2:
+_RefusedTutorial2:
 	writetext CatchingTutorialDeclinedText
 	waitbutton
 	closetext
@@ -100,7 +100,7 @@ Script_RefusedTutorial2:
 	setscene SCENE_ROUTE29_NOOP
 	end
 
-CatchingTutorialDudeScript:
+CatchingTutorialDude:
 	faceplayer
 	opentext
 	readvar VAR_BOXSPACE
@@ -134,16 +134,16 @@ CatchingTutorialDudeScript:
 	closetext
 	end
 
-Route29YoungsterScript:
+Route29Youngster:
 	jumptextfaceplayer Route29YoungsterText
 
-Route29TeacherScript:
+Route29Teacher:
 	jumptextfaceplayer Route29TeacherText
 
-Route29FisherScript:
+Route29Fisher:
 	jumptextfaceplayer Route29FisherText
 
-Route29CooltrainerMScript:
+Route29CooltrainerM:
 	faceplayer
 	opentext
 	checktime DAY
@@ -162,7 +162,7 @@ Route29CooltrainerMScript:
 	closetext
 	end
 
-Script:
+TuscanyScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
