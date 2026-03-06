@@ -20,7 +20,9 @@ Route40_MapScripts:
 
 Route40MonicaCallback:
 	clearevent EVENT_BATTLE_TOWER_OPEN_CIVILIANS
-	.MonicaAppears
+	checkevent EVENT_GOT_SHARP_BEAK_FROM_MONICA
+	iffalse .MonicaAppears
+	disappear ROUTE40_MONICA
 	endcallback
 
 .MonicaAppears:
