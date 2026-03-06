@@ -32,7 +32,9 @@ LakeOfRageFlypointCallback:
 	endcallback
 
 LakeOfRageWesleyCallback:
-	.WesleyAppears
+	checkevent EVENT_GOT_BLACKBELT_FROM_WESLEY
+	iffalse .WesleyAppears
+	disappear LAKEOFRAGE_WESLEY
 	endcallback
 
 .WesleyAppears:
