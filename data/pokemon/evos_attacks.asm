@@ -2336,12 +2336,14 @@ HoothootEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 6, FORESIGHT
-	db 11, PECK
+	db 8, PECK
+	db 11, CONFUSION
 	db 16, HYPNOSIS
 	db 22, REFLECT
+	db 25, WING_ATTACK
 	db 28, TAKE_DOWN
-	db 34, CONFUSION
 	db 48, DREAM_EATER
+	db 55, PSYCHIC
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
@@ -2351,12 +2353,14 @@ NoctowlEvosAttacks:
 	db 1, FORESIGHT
 	db 1, PECK
 	db 6, FORESIGHT
-	db 11, PECK
+	db 8, PECK
+	db 11, CONFUSION
 	db 16, HYPNOSIS
 	db 25, REFLECT
+	db 28, WING_ATTACK
 	db 33, TAKE_DOWN
-	db 41, CONFUSION
 	db 57, DREAM_EATER
+	db 60, PSYCHIC
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
